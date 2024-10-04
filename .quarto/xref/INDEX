@@ -1,0 +1,35 @@
+{
+  "index.qmd": {
+    "index.html": "91b270d2"
+  },
+  "hfdstk1.qmd": {
+    "hfdstk1.html": "18ebb479"
+  },
+  "hfdstk2.qmd": {
+    "hfdstk2.html": "153d91fa"
+  },
+  "hfdstk3.qmd": {
+    "hfdstk3.html": "cbacc4b6"
+  },
+  "hfdstk4.qmd": {
+    "hfdstk4.html": "8e34757a"
+  },
+  "hfdstk5.qmd": {
+    "hfdstk5.html": "db234d14"
+  },
+  "hfdstk6.qmd": {
+    "hfdstk6.html": "0c7ad4e9"
+  },
+  "summary.qmd": {
+    "summary.html": "46894dc7"
+  },
+  "references.qmd": {
+    "references.html": "35552f21"
+  },
+  "gebruiksvoorwaarden.qmd": {
+    "gebruiksvoorwaarden.html": "3743975a"
+  },
+  "licentie.qmd": {
+    "licentie.html": "54a2cb0e"
+  }
+}

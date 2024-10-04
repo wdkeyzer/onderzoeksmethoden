@@ -1,0 +1,293 @@
+---
+title: "Onderzoeksvraag en onderzoeksontwerp"
+---
+
+In Hoofdstuk 2 richten we ons op het verband tussen onderzoeksvragen en het bijbehorende onderzoeksontwerp. We beginnen met de verschillende **soorten onderzoeksvragen**, zoals frequentie-, verschil- en samenhangonderzoeksvragen, die de richting van het onderzoek bepalen. Vervolgens behandelen we de voorwaarden voor **causaliteit** en de rol van **directe en indirecte controlekenmerken**. We gaan verder met het beschrijven van verschillende **typen onderzoek** (beschrijvend, exploratief en toetsend) en sluiten af met een uitgebreide bespreking van **onderzoeksdesigns**, zoals survey- en experimenteel onderzoek, inclusief technieken zoals randomisatie en het beheersen van **verstorende factoren**.
+
+::: {.callout-note title="Leerdoelen" collapse="true"}
+1.  **Begrijpen van verschillende onderzoeksvragen**: Studenten kunnen onderscheid maken tussen frequentie-, verschil- en samenhangonderzoeksvragen en deze koppelen aan geschikte analysemethoden. Ze kunnen uitleggen welke vraag past bij welke onderzoeksdoelen en het verband tussen onderzoeksvraag en design.
+
+2.  **Inzicht in causaliteit en voorwaarden**: Studenten begrijpen de drie voorwaarden voor causaliteit (samenhang, tijdsvolgorde, en afwezigheid van confounders). Ze kunnen dit toepassen in zowel observationeel als experimenteel onderzoek en begrijpen de risico's van omgekeerde causaliteit en schijnverbanden.
+
+3.  **Herkennen van indirecte en verstorende factoren**: Studenten leren de invloed van confounders, mediatoren en moderatoren op onderzoeksresultaten te herkennen en begrijpen het belang van statistische controle om valide resultaten te bekomen.
+
+4.  **Selectie van het juiste onderzoeksontwerp**: Studenten kunnen op basis van de onderzoeksvraag het juiste type onderzoek kiezen, of het nu beschrijvend, exploratief, of toetsend is. Ze kunnen de sterke en zwakke punten van elk type onderzoek evalueren in verschillende situaties.
+
+5.  **Analyseren van surveyonderzoek**: Studenten begrijpen het verschil tussen cross-sectioneel, longitudinaal, trend- en case-control studies. Ze kunnen de sterktes en beperkingen van elk type surveyonderzoek uitleggen en weten wanneer elk geschikt is voor het beantwoorden van verschillende onderzoeksvragen.
+
+6.  **Toepassen van experimenteel ontwerp**: Studenten kunnen het verschil tussen zuivere en quasi-experimentele ontwerpen uitleggen en toepassen. Ze begrijpen methoden zoals randomisatie, matchen, en homogeniseren om verstorende factoren te beheersen en kunnen het belang van deze technieken uitleggen in het bereiken van valide onderzoeksresultaten.
+
+7.  **Identificeren en beheersen van verstorende factoren**: Studenten kunnen verstorende factoren zoals het Hawthorne-effect, placebo- en nocebo-effect, en toevallige verschillen identificeren en uitleggen hoe deze de resultaten van een experiment kunnen beïnvloeden. Ze weten hoe deze factoren kunnen worden beheerst om de betrouwbaarheid van de onderzoeksresultaten te verhogen.
+:::
+
+## Soorten onderzoeksvragen
+
+Het formuleren van de juiste onderzoeksvraag is cruciaal, omdat dit bepaalt welk type onderzoeksontwerp het meest geschikt is. We onderscheiden drie hoofdtypen onderzoeksvragen: **frequentieonderzoeksvragen**, **verschilonderzoeksvragen**, en **samenhangonderzoeksvragen**. Elk type vraag leidt tot een ander soort analyse en is gericht op het beantwoorden van specifieke aspecten van het probleem.
+
+### Frequentieonderzoeksvragen
+
+Frequentieonderzoeksvragen richten zich op het meten van hoe vaak, hoeveel, of in welke mate een bepaald verschijnsel voorkomt. Dit type vraag wordt vaak gesteld om beschrijvende statistieken te verkrijgen, zoals percentages of gemiddelden.
+
+**Voorbeeld:**
+
+-   *Hoeveel procent van de bevolking eet dagelijks fruit?*
+
+-   *In welke mate consumeren kinderen voldoende groenten?*
+
+Dit type onderzoeksvraag leidt vaak tot beschrijvend onderzoek, waarbij de onderzoeker simpelweg registreert hoe vaak een verschijnsel voorkomt zonder direct te zoeken naar onderliggende oorzaken.
+
+### Verschilonderzoeksvragen
+
+Verschilonderzoeksvragen gaan over het vergelijken van groepen op basis van bepaalde kenmerken. Deze vragen helpen om verschillen tussen onderzoekseenheden te analyseren en geven inzicht in hoe variabelen per groep verschillen.
+
+**Voorbeeld:**
+
+-   *Is er een verschil in fruitconsumptie tussen mannen en vrouwen?*
+
+-   *Eten mensen in stedelijke gebieden meer groenten dan mensen in landelijke gebieden?*
+
+Verschilonderzoeksvragen worden vaak gebruikt in combinatie met statistische toetsen die nagaan of de verschillen tussen groepen significant zijn.
+
+### Samenhangonderzoeksvragen
+
+Samenhangonderzoeksvragen richten zich op de relatie tussen twee of meer kenmerken. Hierbij wordt onderzocht of er een **verband**, **relatie**, **associatie** of **correlatie** bestaat tussen de variabelen.
+
+**Voorbeeld:**
+
+-   *Is er een verband tussen opleidingsniveau en voedingsgewoonten?*
+
+-   *Bestaat er een relatie tussen lichaamsgewicht en energie-inname?*
+
+Een **positief verband** betekent dat een toename in de ene variabele samengaat met een toename in de andere variabele, bijvoorbeeld de relatie tussen leeftijd en gewicht bij kinderen. Een **negatief verband** betekent dat een toename in de ene variabele samengaat met een afname in de andere, zoals het verband tussen werkdruk en werktevredenheid.
+
+![Verschillende soorten correlaties.](img/H2_correlatie.png){#fig-correlation .illustration}
+
+Kenmerken die in deze analyses worden gebruikt, worden vaak uitgedrukt in getallen met een hoog meetniveau (zie hoofdstuk 4). Deze samenhangen kunnen grafisch worden weergegeven in een **spreidingsdiagram**, waarbij de punten de relatie tussen de variabelen visualiseren.
+
+## Causaliteit in onderzoek
+
+Nadat we de verschillende soorten onderzoeksvragen hebben besproken, is het belangrijk om het concept van **causaliteit** te introduceren. **Causaliteit** verwijst naar een oorzaak-gevolgrelatie, waarbij de ene variabele (de onafhankelijke variabele) een direct effect heeft op een andere variabele (de afhankelijke variabele). In wetenschappelijk onderzoek is het echter vaak een uitdaging om causaliteit vast te stellen, omdat correlatie niet automatisch causaliteit impliceert. Om te bepalen of er sprake is van een oorzakelijk verband, moeten er aan drie voorwaarden worden voldaan.
+
+::: {.callout-tip icon="false" collapse="true" title="Voorbeeldonderzoek verband tussen cafeïne-inname en depressie"}
+![](img/H2_cafeine_depression.png){.illustration}
+
+Onderzoekers volgden 50.739 Amerikaanse vrouwen, met een gemiddelde leeftijd van 63 jaar, over een periode van 10 jaar (1996-2006). De studiepopulatie was afkomstig uit de *Nurses' Health Study*. Vrouwen die vrij waren van depressieve symptomen aan het begin van de studie rapporteerden hun cafeïne-inname, en de onderzoekers keken naar het risico op depressie in relatie tot de hoeveelheid cafeïne die zij consumeerden. De voornaamste bevindingen van het onderzoek laten zien dat vrouwen met een hogere inname van cafeïne een lager risico op depressie hadden. Vrouwen die vier of meer koppen cafeïnehoudende koffie per dag dronken, hadden een 20% lager risico op klinische depressie (multivariate relatieve risicoreductie: 0.80) in vergelijking met vrouwen die één of minder koppen per week dronken. Deze associatie werd niet gezien bij het drinken van cafeïnevrije koffie, wat suggereert dat cafeïne zelf een beschermende factor kan zijn.
+:::
+
+### Voorwaarden voor causaliteit
+
+1.  **Samenhang**: De eerste voorwaarde voor causaliteit is dat er een duidelijke **samenhang** of correlatie moet zijn tussen de twee variabelen. Dit betekent dat veranderingen in de onafhankelijke variabele samengaan met veranderingen in de afhankelijke variabele. Echter, alleen een correlatie is niet voldoende bewijs voor causaliteit.
+
+    *Er is een negatieve samenhang gevonden tussen cafeïne-inname en depressie bij Amerikaanse verpleegsters; verpleegsters die meer cafeïne consumeren, vertonen een lagere mate van depressie. Hoewel dit een samenhang is, bewijst het nog geen causaal verband.*
+
+2.  **Tijdsvolgorde**: De tweede voorwaarde is dat de **onafhankelijke variabele in de tijd voorafgaat aan de afhankelijke variabele**. Dit betekent dat de oorzaak moet plaatsvinden vóór het gevolg. Zonder deze tijdsvolgorde kan er geen sprake zijn van causaliteit.
+
+    *Om te bepalen of cafeïne de depressie beïnvloedt, moet de consumptie van cafeïne voorafgaan aan de ontwikkeling van depressie. Als de volgorde niet gegarandeerd is, kan er geen causaal verband worden vastgesteld.*
+
+    **Omgekeerde causaliteit** (reverse causation) verwijst naar een situatie waarin de richting van het oorzakelijk verband omgekeerd is ten opzichte van wat oorspronkelijk werd verondersteld. In plaats van dat variabele A de oorzaak is van variabele B, is het juist variabele B die variabele A beïnvloedt. In het onderzoek naar cafeïne en depressie zou dit bijvoorbeeld betekenen dat vrouwen met depressie minder cafeïne zijn gaan consumeren (depressie beïnvloedt cafeïne-inname), in plaats van dat minder cafeïne-inname depressie veroorzaakt.
+
+3.  **Geen derde variabele (confounding)**: De derde voorwaarde is dat er geen **derde variabele** in het spel is die de relatie tussen de onafhankelijke en afhankelijke variabele verklaart. Deze variabelen, ook wel **confounders** genoemd, kunnen de schijn wekken van een causaal verband, terwijl dit in werkelijkheid niet zo is.
+
+    *In het voorbeeld van cafeïne en depressie zou een confounder zoals slaaptekort of stress de relatie tussen de variabelen kunnen verklaren, in plaats van cafeïne. Correcte statistische analyses moeten dus controleren voor de invloed van dergelijke confounders.*
+
+Door te voldoen aan deze drie voorwaarden kan een sterker argument worden gemaakt voor causaliteit, hoewel in veel observationeel onderzoek volledige zekerheid lastig te verkrijgen is.
+
+## Directe en indirecte kenmerken
+
+Bij het uitvoeren van onderzoek is het belangrijk om onderscheid te maken tussen **directe** en **indirecte kenmerken**, die invloed hebben op de onafhankelijke en afhankelijke variabelen.
+
+**Directe onafhankelijke kenmerken**: Dit zijn de **onafhankelijke variabelen** die de afhankelijke variabele beïnvloeden. Deze kenmerken gaan in de tijd vooraf aan de afhankelijke variabele.
+
+**Voorbeeld:** *In een studie over de relatie tussen rood vleesconsumptie en kanker is rood vleesconsumptie het directe onafhankelijke kenmerk, dat invloed heeft op de kans op kanker.*
+
+**Directe afhankelijke kenmerken**: Dit zijn de **afhankelijke variabelen** die beïnvloed worden door de onafhankelijke variabele.
+
+**Voorbeeld:** *In dezelfde studie is kanker het directe afhankelijke kenmerk dat beïnvloed wordt door de hoeveelheid rood vlees die iemand consumeert.*
+
+**Indirecte controlekenmerken**: Dit zijn variabelen die, hoewel ze niet direct het onderzoeksobject zijn, van invloed kunnen zijn op de relatie tussen de onafhankelijke en afhankelijke variabele. Deze variabelen kunnen de resultaten van het onderzoek vertekenen als ze niet worden gecontroleerd of meegenomen in de analyse. Ze worden vaak geïdentificeerd door literatuuronderzoek of eerdere studies en moeten adequaat worden beheerst om een valide conclusie te trekken.
+
+**Voorbeelden** van indirecte controlekenmerken in een studie naar de invloed van rood vleesconsumptie op kankerontwikkeling zijn:
+
+-   **Geslacht**: Mannen en vrouwen kunnen verschillend reageren op voedingsgewoonten, waardoor geslacht de relatie tussen vleesconsumptie en kanker kan beïnvloeden.
+-   **Leeftijd**: De kans op kanker kan met de leeftijd toenemen, waardoor leeftijd een indirecte controlevariabele wordt in het verband tussen dieet en gezondheidsuitkomsten.
+-   **Roken**: Roken verhoogt het risico op kanker, en dit kan de schijn wekken dat rood vlees een groter effect heeft dan in werkelijkheid het geval is, als niet voor roken wordt gecorrigeerd.
+-   **Socio-economische status**: Dit kan van invloed zijn op voedingsgewoonten en gezondheidszorgtoegang, wat indirect de kans op kanker kan beïnvloeden.
+
+Het is van cruciaal belang om deze kenmerken te identificeren en statistisch te controleren, zodat de ware relatie tussen de onafhankelijke en afhankelijke variabele naar voren komt.
+
+### Moderator, Mediator en Confounder
+
+Een **moderator** is een variabele die de sterkte of richting van de relatie tussen de onafhankelijke en afhankelijke variabele beïnvloedt. Het effect van de onafhankelijke variabele op de afhankelijke variabele verschilt afhankelijk van de waarde van de moderator.
+
+**Voorbeeld:** *Geslacht kan een moderator zijn bij de relatie tussen stress en werkprestaties; stress kan een sterker effect hebben op vrouwen dan op mannen.*
+
+Een **mediator** verklaart het mechanisme waardoor de onafhankelijke variabele invloed uitoefent op de afhankelijke variabele. Het geeft aan **hoe** en **waarom** het effect plaatsvindt.
+
+**Voorbeeld:** *Stress kan een mediator zijn in de relatie tussen werkdruk en slaapstoornissen. Werkdruk leidt tot stress, wat op zijn beurt slaapstoornissen veroorzaakt.*
+
+Een **confounder** is een variabele die zowel de onafhankelijke als de afhankelijke variabele beïnvloedt en zo een schijnverband kan veroorzaken. Een confounder verstoort de ware relatie tussen de variabelen.
+
+**Voorbeeld**: *In een onderzoek naar het verband tussen koffieconsumptie en hartziekten kan roken een confounder zijn, omdat rokers mogelijk meer koffie drinken en ook een hoger risico op hartziekten hebben, wat de relatie kan vertekenen.*
+
+### Schijnverband
+
+Een **schijnverband** ontstaat wanneer er een statistisch verband lijkt te bestaan tussen twee variabelen, maar dit in werkelijkheid wordt veroorzaakt door een derde variabele, een **confounder**. Hierdoor kan de relatie tussen de onafhankelijke en afhankelijke variabele vertekend worden.
+
+**Voorbeeld:** *In een studie naar het verband tussen het eten van ijs en zonnebrand zou de temperatuur een confounder kunnen zijn. Het eten van ijs en zonnebrand komen beide vaker voor bij warm weer, maar hebben op zichzelf geen direct verband.*
+
+## Typen onderzoek
+
+Bij het kiezen van een onderzoeksontwerp zijn er drie belangrijke typen onderzoek die elk een andere benadering hanteren: **beschrijvend**, **exploratief** en **toetsend onderzoek**. Elk type onderzoek heeft een specifiek doel en methode, afhankelijk van de onderzoeksvraag en de mate waarin de onderzoeker hypothesen wil testen. Deze drie typen onderzoek vullen elkaar aan en kunnen in verschillende fasen van een onderzoek worden gebruikt.
+
+### Beschrijvend onderzoek
+
+Beschrijvend onderzoek richt zich op het nauwkeurig vastleggen en beschrijven van bepaalde verschijnselen of kenmerken zonder verder te gaan in het verklaren van onderliggende verbanden. Het doel is om een duidelijk beeld te krijgen van een situatie of probleem op basis van feiten en cijfers, zonder te zoeken naar oorzakelijke relaties.
+
+**Voorbeeld:** *Het bijhouden van gegevens over de gemiddelde fruit- en groenteconsumptie per dag onder verschillende leeftijdsgroepen. Dit onderzoek zou vaststellen hoeveel mensen dagelijks de aanbevolen hoeveelheid fruit en groenten consumeren, zonder in te gaan op waarom sommige groepen minder consumeren dan andere.*
+
+### Exploratief onderzoek
+
+Exploratief onderzoek is gericht op het onderzoeken van onbekende gebieden of het ontwikkelen van nieuwe ideeën en hypothesen. Dit type onderzoek wordt uitgevoerd wanneer er weinig bekend is over het onderwerp en dient om beter inzicht te krijgen in de factoren die een rol kunnen spelen.
+
+**Voorbeeld:** *Een onderzoek naar de factoren die bijdragen aan het niet ontbijten bij jongeren. Exploratief onderzoek kan de redenen achterhalen, zoals tijdgebrek, gebrek aan honger in de ochtend, of culturele voorkeuren. Het doel is niet om een hypothese te testen, maar om beter te begrijpen welke factoren een rol spelen.*
+
+### Toetsend onderzoek
+
+Toetsend onderzoek heeft als doel een hypothese te testen. Het is gebaseerd op een bestaande theorie en stelt onderzoeksvragen waarbij de onderzoeker wil weten of de verwachte verbanden of verschillen daadwerkelijk bestaan. In toetsend onderzoek worden vaak experimentele of quasi-experimentele methoden gebruikt.
+
+Een theorie is een reeks samenhangende uitspraken die verklaren hoe een bepaald fenomeen werkt. Op basis van deze theorie wordt een **hypothese** geformuleerd, die kan worden getest.
+
+**Voorbeeld theorie werkdruk en voedselveiligheid**: - Een hogere werkdruk leidt tot meer taken in minder tijd. - Meer taken in minder tijd betekent minder tijd per taak. - Minder tijd per taak resulteert in minder controle en evaluatie. - Minder controle leidt tot meer fouten in hygiënisch handelen. - Meer fouten in hygiënisch handelen resulteren in minder veilig voedsel.
+
+**Hypothese**: *Hogere werkdruk in een grootkeuken leidt tot lagere voedselveiligheid.*
+
+Deze hypothese kan vervolgens worden getest in een onderzoek.
+
+#### Voorwaarden voor proposities
+
+In toetsend onderzoek moeten **proposities**, oftewel samenhangende uitspraken, aan enkele voorwaarden voldoen om als basis te dienen voor een toetsbare hypothese:
+
+1.  **Logische samenhang**: De proposities moeten logisch met elkaar in verband staan en elkaar niet tegenspreken.
+2.  **Toetsbaarheid**: De proposities moeten zodanig geformuleerd zijn dat er een duidelijke hypothese uit kan worden afgeleid die meetbaar is.
+3.  **Verklaringsmechanisme**: De proposities moeten een mechanisme bevatten dat verklaart **waarom** en **hoe** de onafhankelijke variabele invloed uitoefent op de afhankelijke variabele.
+
+Deze voorwaarden helpen bij het opstellen van heldere, onderbouwde hypothesen die getest kunnen worden in een wetenschappelijk onderzoek.
+
+#### Verifiëren en falsifiëren
+
+In wetenschappelijk onderzoek zijn **verifiëren** en **falsifiëren** twee manieren om hypothesen te toetsen:
+
+-   **Verifiëren**: Het bevestigen van een hypothese door middel van observaties of experimenten. Als de resultaten overeenkomen met de voorspellingen van de hypothese, wordt deze als voorlopig waar beschouwd.
+
+    *Voorbeeld*: Als een studie aantoont dat een verhoging van werkdruk daadwerkelijk leidt tot een toename van fouten in voedselveiligheid, wordt de hypothese geverifieerd.
+
+-   **Falsifiëren**: Het weerleggen van een hypothese door resultaten die in strijd zijn met de voorspellingen. Falsificatie is krachtiger, omdat één tegenvoorbeeld een hypothese kan ontkrachten.
+
+    *Voorbeeld*: Als geen enkel verband wordt gevonden tussen werkdruk en voedselveiligheid, wordt de hypothese gefalsifieerd.
+
+#### Nulhypothese en alternatieve hypothese
+
+Een hypothese wordt geformuleerd als een voorspelling die je in een onderzoek gaat testen. Dit kan gaan om het verwachte verband tussen variabelen of het verschil tussen groepen.
+
+-   **Nulhypothese (H₀)**: Dit beschrijft wat je zou verwachten als er **geen effect** of **geen verschil** is tussen de onderzochte groepen of variabelen. *Voorbeeld*: Er is **geen verschil** in calorie-inname tussen mensen die water drinken en mensen die frisdrank drinken.
+
+-   **Alternatieve hypothese (H₁)**: Dit is de tegenhanger van de nulhypothese en geeft aan welk **effect** of **verschil** je verwacht. *Voorbeeld*: Mensen die water drinken consumeren **minder calorieën** dan mensen die frisdrank drinken.
+
+De hypothese wordt getest om te zien of de alternatieve hypothese kan worden bevestigd, of dat de nulhypothese behouden moet worden.
+
+#### Evaluatieonderzoek
+
+Evaluatieonderzoek is een speciale vorm van toetsend onderzoek waarbij de effectiviteit van een interventie of programma wordt getest. Het doel is om te beoordelen of een bepaalde maatregel of interventie de beoogde resultaten oplevert en welke factoren de uitkomst beïnvloeden.
+
+**Voorbeeld:** Een evaluatiestudie kan onderzoeken of een voedingsvoorlichtingsprogramma voor basisschoolkinderen effectief is in het verbeteren van hun eetgewoonten, zoals het verhogen van hun groente- en fruitinname.
+
+## Onderzoeksontwerp
+
+In kwantitatief onderzoek zijn er twee veelgebruikte onderzoeksontwerpen, ook wel onderzoeksdesigns genoemd. Deze ontwerpen bepalen hoe de gegevens worden verzameld en geanalyseerd:
+
+**Surveyonderzoek**: Hierbij worden gegevens verzameld zonder dat er wordt ingegrepen in de situatie. Het doel is vaak om een beschrijving te geven van de populatie of een patroon te ontdekken, bijvoorbeeld met behulp van vragenlijsten of interviews. Er wordt geen interventie toegepast.
+
+**Experimenteel onderzoek**: Dit ontwerp wordt gebruikt wanneer men een **oorzakelijk verband** wil bestuderen. Hierbij wordt een interventie toegepast op een onderzoeksgroep, waarna het effect op de afhankelijke variabele wordt gemeten.
+
+Onderstaande figuur toont verschillende **onderzoeksdesigns** in survey- en experimenteel onderzoek, ingedeeld naar **tijd** en de manier waarop blootstelling (E: exposure) en uitkomst (O: outcome) worden gemeten.
+
+-   **Cross-sectioneel onderzoek**: Zowel blootstelling als uitkomst worden gelijktijdig gemeten zonder voorafgaande kennis van blootstelling of uitkomst.
+-   **Cohort onderzoek**: Een groep wordt geselecteerd op basis van blootstelling, waarna ze in de tijd gevolgd worden om de uitkomst te registreren.
+-   **Case-control onderzoek**: Mensen worden geselecteerd op basis van hun **uitkomst** (O+ of O-) en daarna wordt gevraagd naar hun eerdere blootstelling (E+ of E-).
+-   **Experimenteel onderzoek**: Er wordt een interventie uitgevoerd (blootstelling wordt gemodificeerd) en de uitkomst wordt vervolgens gevolgd.
+
+![Overzicht van steekproeftrekking en tijdsvolgorde in onderzoeksontwerpen gebruikt in epidemiologische voedingsstudies (aangepaste figuur van Margetts & Nelson [-@margetts1997]).](img/H2_studydesigns.png){#Fig- .illustration}
+
+### Soorten surveyonderzoek
+
+#### Cross-sectioneel onderzoek
+
+Cross-sectioneel onderzoek of eenmalig surveyonderzoek verzamelt data op **één enkel moment**, wat een **momentopname** van een populatie geeft. Het wordt vaak gebruikt om verschillende groepen binnen een samenleving op één bepaald tijdstip te onderzoeken. Hierdoor kun je een beeld vormen van patronen of gedragingen op dat moment, maar het biedt geen inzicht in veranderingen over tijd.
+
+**Voorbeeld:** *Een nationale voedselconsumptiepeiling die op één moment gegevens verzamelt over de consumptie van alle voedingsmiddelen en nutriënten bij de bevolking.*
+
+#### Longitudinaal onderzoek
+
+Bij longitudinaal surveyonderzoek wordt data op **meerdere momenten in de tijd** verzameld, waardoor veranderingen in gedrag, consumptie of gezondheid kunnen worden gevolgd. Dit type onderzoek kan zowel **prospectief** als **retrospectief** zijn.
+
+-   **Prospectief onderzoek**: Hierbij worden deelnemers door de tijd heen gevolgd vanaf een vast startpunt, en meet je veranderingen gedurende de onderzoeksperiode. Vaak wordt dezelfde groep mensen (een **panel** of **cohort**) herhaaldelijk gemeten.
+
+    **Voorbeeld:** *In de Nurses' Health Study wordt een cohort van verpleegkundigen jarenlang gevolgd om verbanden te onderzoeken tussen voeding en gezondheid (zie voorbeeld cafeïneconsumptie en risico op depressie).*
+
+-   **Trendonderzoek**: Hierbij worden **verschillende groepen mensen** op meerdere momenten gemeten om veranderingen in de populatie te detecteren. Hoewel niet dezelfde personen worden gevolgd, worden vergelijkbare groepen over tijd met elkaar vergeleken om trends te identificeren.
+
+    **Voorbeeld:** *De Belgische voedselconsumptiepeiling die om de zoveel jaar de voedselinnamepatronen van de bevolking meet, maar niet steeds dezelfde individuen volgt.*
+
+#### Case-control onderzoek
+
+In dit type onderzoek wordt gekeken naar het verleden (retrospectief). De data over blootstelling (zoals voeding of leefgewoonten) wordt achteraf verzameld, nadat een bepaalde uitkomst al heeft plaatsgevonden. Bij case-control studies worden mensen met een specifieke uitkomst (zoals een ziekte) vergeleken met mensen zonder die uitkomst om te bepalen of eerdere blootstelling verschilt tussen de groepen.
+
+**Voorbeeld:** *Een studie naar de relatie tussen voeding en darmkanker, waarbij onderzoekers patiënten met darmkanker vergelijken met gezonde individuen en vragen naar hun eerdere voedingsgewoonten om een verband te vinden.*
+
+**Zelfrapportage** is een veelvoorkomend kenmerk van surveyonderzoek waarbij deelnemers zelf informatie verstrekken over hun gedrag, gewoonten of meningen. Dit kan echter leiden tot onnauwkeurigheden omdat mensen geneigd zijn hun antwoorden aan te passen door sociale wenselijkheid (**social-desirability bias**). Dit betekent dat deelnemers zich beter willen voordoen door bijvoorbeeld gezonder eetgedrag of meer fysieke activiteit te rapporteren dan ze werkelijk hebben.
+
+Longitudinaal onderzoek is krachtiger dan cross-sectioneel onderzoek omdat het veranderingen over tijd kan vastleggen, maar het vereist meer tijd en middelen. Retrospectief onderzoek kan nuttig zijn als het niet mogelijk is om vooraf gegevens te verzamelen, maar het is gevoeliger voor fouten in het herinneren van blootstelling (**recall bias**).
+
+::: {.callout-tip collapse="true" icon="false" title="Onderzoek naar zelfgerapporteerde lengte en gewicht"}
+Een review van @fayyaz2024 naar zelfgerapporteerde lengte en gewicht bevestigt eerdere bevindingen dat zowel mannen als vrouwen systematische verschillen vertonen tussen zelfgerapporteerde en werkelijke metingen. Uit het onderzoek bleek dat mannen hun lengte iets overschatten, terwijl vrouwen hun gewicht vaker onderschatten. Deze discrepanties zijn meer uitgesproken bij personen met een hogere body mass index (BMI), wat aangeeft dat de kloof tussen zelfgerapporteerd en werkelijk gewicht toeneemt naarmate de BMI stijgt. Deze trend was vooral duidelijk bij jonge vrouwen, waar de onderrapportage van het gewicht significanter was. Ondanks deze discrepanties bleek uit het onderzoek dat zelfgerapporteerde lengte en gewicht nog steeds een sterke correlatie vertonen met de werkelijke metingen, wat suggereert dat hoewel er vertekeningen bestaan, zelfrapportages nuttig blijven voor BMI-berekeningen op populatieniveau.
+:::
+
+### Experimenteel onderzoek
+
+**Experimenteel onderzoek** wordt gebruikt om causale verbanden vast te stellen door middel van **interventies**. Er zijn twee hoofdvormen: **zuiver experiment** en **quasi-experiment**.
+
+#### Zuiver experiment
+
+Dit type onderzoek heeft een **gerandomiseerde toewijzing** van deelnemers aan experimentele en controlegroepen. De onderzoeker past een interventie toe op de experimentele groep en meet vervolgens het effect. Door randomisatie is de kans kleiner dat verstorende factoren de uitkomsten beïnvloeden, waardoor de interne validiteit hoog is.
+
+![Randomisatie.](img/H2_Simple-randomization.png){#Fig-random .illustration width="400"}
+
+#### Quasi-experiment
+
+Bij een quasi-experiment ontbreekt volledige randomisatie, wat betekent dat deelnemers niet willekeurig worden toegewezen aan groepen. Dit kan gebeuren door praktische beperkingen of ethische overwegingen. Hoewel quasi-experimenten minder robuust zijn in het uitsluiten van verstorende factoren, kunnen ze nog steeds nuttige inzichten opleveren, vooral in realistische settings waar randomisatie lastig is.
+
+#### Matchen en homogeniseren
+
+**Matchen** is een techniek waarbij deelnemers in de experimentele en controlegroep gematcht worden op belangrijke kenmerken (zoals leeftijd, geslacht of gezondheid) om ervoor te zorgen dat beide groepen zo vergelijkbaar mogelijk zijn. Dit minimaliseert de invloed van confounders.
+
+![Matchen.](img/H2_Matched-pairs.png){#Fig-matchen .illustration width="400"}
+
+**Homogeniseren** houdt in dat de deelnemers in de studie worden geselecteerd op basis van gelijke kenmerken om verschillen te beperken. Bijvoorbeeld, alleen mensen binnen een bepaalde leeftijdscategorie worden geselecteerd, zodat de invloed van leeftijd als verstorende factor wordt geëlimineerd.
+
+#### Verstorende factoren bij het experiment
+
+Zelfs in goed ontworpen experimenten kunnen er verstorende factoren optreden die de resultaten beïnvloeden. Enkele veelvoorkomende verstorende factoren zijn:
+
+-   **Hawthorne-effect**: Deelnemers veranderen hun gedrag simpelweg omdat ze weten dat ze geobserveerd worden, wat kan leiden tot een vertekening van de resultaten.
+
+-   **Experimenter-effect**: Dit treedt op wanneer de verwachtingen of het gedrag van de onderzoeker de resultaten beïnvloeden, bijvoorbeeld door onbedoelde aanwijzingen te geven aan de deelnemers.
+
+-   **Toevallige verschillen**: Deze verschillen zijn variaties in onderzoeksresultaten (**random error**) die optreden zonder duidelijke oorzaak en niet aan een specifieke factor kunnen worden toegeschreven. Deze verschillen ontstaan door willekeurige fluctuaties in meetomstandigheden of in de eigenschappen van de steekproef. Grotere steekproeven, herhaalde metingen en randomisatie kunnen helpen om de invloed van deze toevallige verschillen te verminderen.
+
+-   **Placebo-effect**: Dit gebeurt wanneer deelnemers een verbetering rapporteren puur omdat ze denken dat ze een effectieve behandeling krijgen, terwijl ze eigenlijk in de controlegroep zitten.
+
+-   **Nocebo-effect**: Dit treedt op wanneer deelnemers negatieve bijwerkingen of verslechtering ervaart omdat ze verwachten dat een behandeling nadelige effecten zal hebben, zelfs als de interventie geen actief werkzame stof bevat. Dit effect kan leiden tot klachten zoals hoofdpijn, misselijkheid of angst, puur door de verwachting van schadelijke effecten. In experimenteel onderzoek kan het nocebo-effect de resultaten verstoren, aangezien de uitkomst niet te wijten is aan de behandeling zelf, maar aan de negatieve verwachtingen van de deelnemer.
+
+-   **Novelty-effect**: Dit kan optreden wanneer een nieuwe interventie in het begin positieve resultaten lijkt te hebben, niet vanwege de interventie zelf, maar omdat het nieuw en anders is.
+
+Door bewust te zijn van deze verstorende factoren en methoden zoals randomisatie, matchen en homogeniseren toe te passen, kan de kwaliteit van experimenteel onderzoek worden verbeterd en kunnen betrouwbaardere conclusies worden getrokken.

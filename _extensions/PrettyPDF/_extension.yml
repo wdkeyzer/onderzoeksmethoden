@@ -1,0 +1,15 @@
+title: PrettyPDF
+author: Nicola Rennie
+version: 0.0.1
+contributes:
+  formats:
+    pdf:
+      include-in-header:
+       - "PrettyPDF.tex"
+      include-before-body:
+       - "pagestyle.tex"
+      toc: true
+      toc-depth: 4
+      code-block-bg: light
+      linkcolor: highlight
+      urlcolor: highlight

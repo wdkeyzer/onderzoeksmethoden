@@ -1,0 +1,67 @@
+project:
+  type: book
+
+book:
+  title: "Onderzoeksmethoden - Voeding"
+  author:
+    name: "dr. Willem De Keyzer"
+    affiliations: "Departement Biowetenschappen en Industriële technologie - HOGENT"
+  date: "1/9/2024"
+  date-format: "YYYY"
+  chapters:
+    - index.qmd
+    - licentie.qmd
+    - hfdstk1.qmd
+    - hfdstk2.qmd
+    - hfdstk3.qmd
+    - hfdstk4.qmd
+    - hfdstk5.qmd
+    - references.qmd
+  cover-image: cover.png
+
+
+
+bibliography: references.bib
+csl: apa.csl
+nocite: |
+  @soedamah-muthu2016, @baarda2021, @vandenbroucke2016, @mullie2017, @nutritio2015, @pollefliet2018
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true  # optional, include table of contents
+    toc-depth: 4  # optional, set the depth of the table of contents
+    navbar:
+      left:
+        - text: "Home"
+          href: index.html
+        - text: "Download"
+          menu:
+            - text: "PDF"
+              href: Onderzoeksmethoden---Voeding.pdf
+            - text: "EPUB"
+              href: Onderzoeksmethoden---Voeding.epub
+
+  epub:
+    toc: true  # optional, include table of contents
+    toc-depth: 3
+    cover-image: cover.png  # EPUB cover image
+
+  pdf:
+    toc-depth: 3
+    documentclass: scrreprt
+    pdf-engine: xelatex # Ensure xelatex is used for custom fonts
+    include-in-header:
+      - _extensions/PrettyPDF/PrettyPDF.tex  # Custom LaTeX template
+    include-before-body:
+      - _extensions/PrettyPDF/pagestyle.tex  # Custom page layout
+
+editor: visual
+
+lang: nl
+
+# Reference the PrettyPDF extension
+_extensions:
+  - PrettyPDF

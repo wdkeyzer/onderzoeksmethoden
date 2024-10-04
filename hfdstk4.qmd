@@ -1,0 +1,250 @@
+---
+title: "Verzamelen van bruikbare gegevens"
+---
+
+In elk onderzoek is het cruciaal om gegevens te verzamelen die de onderzoeksvraag nauwkeurig beantwoorden. Dit begint met het **operationaliseren** van abstracte begrippen en het vertalen ervan naar meetbare variabelen, zodat ze op een betrouwbare en valide manier gemeten kunnen worden. In dit hoofdstuk leer je hoe je concepten kunt omzetten in concrete **constructen** en hoe je verschillende **dataverzamelingsmethoden** kunt kiezen die passen bij de aard van je onderzoek. Daarnaast wordt ingegaan op het gebruik van diverse **antwoordschalen**, het belang van verschillende **meetniveaus**, en de **kwalitetiscriteria van meetinstrumenten** zoals **validiteit**, **betrouwbaarheid**, **accuraatheid**, en **precisie**. Door deze stappen zorgvuldig uit te voeren, verzeker je dat de verzamelde gegevens niet alleen nauwkeurig en relevant zijn voor je onderzoeksvraag, maar ook betrouwbaar kunnen worden geanalyseerd om zinvolle conclusies te trekken.
+
+::: {.callout-note title="Leerdoelen" collapse="true"}
+1.  **Onderscheiden van concepten en constructen**: De student kan het verschil tussen concepten en constructen identificeren en voorbeelden geven van hoe brede, abstracte ideeën worden omgezet in concrete, meetbare variabelen binnen onderzoek.
+
+2.  **Operationaliseren van onderzoek**: De student kan operationaliseren door abstracte concepten in onderzoek te vertalen naar meetbare indicatoren en items, inclusief voorbeelden uit onderzoek.
+
+3.  **Toepassen van dataverzamelingsmethoden**: De student kan verschillende dataverzamelingsmethoden (zoals vragenlijsten, interviews, voedingsdagboeken en observatie) selecteren en aangeven wanneer elke methode het meest geschikt is voor een specifiek type onderzoek (beschrijvend, exploratief of toetsend).
+
+4.  **Toepassen van directe, indirecte, gestructureerde en ongestructureerde dataverzamelingsmethoden**: De student kan directe en indirecte dataverzamelingsmethoden onderscheiden en bepalen wanneer en hoe deze methoden, evenals gestructureerde en ongestructureerde benaderingen, in onderzoek gebruikt kunnen worden.
+
+5.  **Onderscheiden van meetniveaus**: De student kan de verschillende meetniveaus (nominaal, ordinaal, interval, ratio) onderscheiden en uitleggen hoe elk niveau de keuze van statistische analyses beïnvloedt.
+
+6.  **Gebruik van antwoordschalen**: De student kan diverse antwoordschalen (zoals Likert-schalen, frequentieschalen en semantische differentiaal) toepassen om gegevens te standaardiseren en te kwantificeren in onderzoek.
+
+7.  **Begrijpen van meetfouten en kwaliteitscriteria**: De student kan kwaliteitscriteria van meetinstrumenten zoals validiteit, betrouwbaarheid, accuraatheid en precisie analyseren en het belang hiervan in onderzoek uitleggen, inclusief de invloed ervan op onderzoeksresultaten.
+:::
+
+## Operationaliseren van onderzoek
+
+Onderzoek draait om het **meten van bepaalde kenmerken** van de onderzoekseenheden. Bijvoorbeeld, je wilt het **ongezond eetgedrag** (kenmerk) van **adolescenten** (onderzoekseenheden) onderzoeken.
+
+Om deze abstracte begrippen meetbaar te maken, gebruiken we **operationalisatie**. Dit houdt in dat we het kenmerk vertalen naar concreet meetbare termen. In het voorbeeld van ongezond eetgedrag moet je bepalen **hoe** je dit gaat meten, bijvoorbeeld door vragen over snackfrequentie, suikerinname, of de consumptie van bewerkte voedingsmiddelen te formuleren. Door een concept te vertalen naar observeerbare en meetbare elementen, wordt het mogelijk om deze concepten te onderzoeken en te analyseren.
+
+### Concept en construct
+
+In onderzoek verwijzen **concepten** naar brede, abstracte ideeën of fenomenen die niet direct meetbaar zijn. Voorbeelden van concepten zijn 'gezondheid', 'voedselkwaliteit', of 'welzijn'. Ze dienen als algemene categorieën die meer precisie nodig hebben om te kunnen meten.
+
+Een **construct** is een specifiekere, afgebakende versie van een concept. Het is bedoeld om gemeten te worden en is opgebouwd uit verschillende dimensies en indicatoren. Bijvoorbeeld, 'gezondheid' kan worden omgezet in het construct 'BMI' of 'Diet Quality Index', die vervolgens meetbaar worden door middel van vragenlijsten of andere instrumenten.
+
+### Operationaliseren in stappen
+
+Operationaliseren is het proces waarbij abstracte begrippen worden omgezet in concrete, meetbare termen, zodat ze onderzocht kunnen worden. Dit gebeurt in vier stappen:
+
+1.  **Definieer het begrip dat je wilt meten**: Lichamelijke fitheid wordt gedefinieerd als het vermogen van het lichaam om dagelijkse fysieke activiteiten efficiënt uit te voeren zonder overmatige vermoeidheid.
+
+2.  **Ga na of er dimensies kunnen worden onderscheiden**: Lichamelijke fitheid heeft verschillende dimensies, zoals cardiovasculaire gezondheid, spierkracht, flexibiliteit en lichaamssamenstelling.
+
+3.  **Bedenk per dimensie concrete indicatoren**:
+
+    -   *Cardiovasculaire gezondheid*: VO2 max
+    -   *Spierkracht*: Krachttesten (zoals het aantal push-ups)
+    -   *Flexibiliteit*: Sit-and-reach-test
+
+4.  **Bedenk per indicator één of meer items**:
+
+    -   *"Hoe vaak voert u per week cardiovasculaire oefeningen uit?"*
+    -   *"Hoeveel push-ups kunt u achter elkaar uitvoeren?"*
+
+Operationaliseren maakt het mogelijk om abstracte begrippen op een betrouwbare manier te meten.
+
+::: {.callout-tip icon="false" collapse="true" title="Voorbeeld van operationaliseren van de Diet Quality Index voor Adolescenten (DQI-A)"}
+In de HELENA-studie werd de **Diet Quality Index voor Adolescents (DQI-A)** ontwikkeld om de naleving van voedingsrichtlijnen door adolescenten te meten [@vyncke2013]. Het DQI-A-model volgt een specifieke operationalisatiestroom en kan als volgt worden uitgewerkt:
+
+1.  **Begrip definiëren**: De **dieetkwaliteit** wordt gedefinieerd als de mate waarin de voeding van een adolescent in overeenstemming is met de praktische aanbevelingen van de voedginsdriehoek.
+
+2.  **Dimensies onderscheiden**:
+
+    -   **Voedingskwaliteit**: De kwaliteit van de gekozen voedingsmiddelen binnen voedselgroepen.
+    -   **Voedingsdiversiteit**: De mate van variatie in de voeding.
+    -   **Voedingsevenwicht**: Het evenwicht tussen aanbevolen en niet-aanbevolen voedingsmiddelen.
+
+3.  **Indicatoren kiezen**:
+
+    -   **Voedingskwaliteit**: Binnen elke voedselgroep worden voedingsmiddelen ingedeeld in drie categorieën:
+        -   *Voorkeur*: bijvoorbeeld verse groenten.
+        -   *Geen voorkeur*: zoals diepvriesgroenten met room- of saustoevoegingen.
+        -   *Zo weinig mogelijk*: zoals soep op basis van pakjes of bouillon.
+    -   **Voedingsdiversiteit**: Per dag wordt gemeten of er ten minste één portie uit de negen aanbevolen voedselgroepen is geconsumeerd.
+    -   **Voedingsevenwicht**: Het verschil tussen adequaatheid (voldoen aan aanbevolen hoeveelheden) en overmaat (inname die de aanbevolen maxima overschrijdt).
+
+4.  **Items ontwikkelen**:
+
+    -   Een **voedselfrequentievragenlijst** wordt gebruikt om te registreren hoeveel porties van elk type voedsel de adolescent consumeert.
+    -   Voor elke voedselgroep wordt gemeten of de dagelijkse minimum- en maximumrichtlijnen zijn nageleefd.
+
+**Scoring van DQI-A**: - De score wordt berekend door een gemiddelde te nemen van de scores voor voedingskwaliteit, diversiteit en evenwicht. Deze loopt van -33% tot 100%, waarbij een hogere score een gezondere voeding weerspiegelt.
+:::
+
+## Dataverzamelingsmethoden
+
+Nadat je hebt bepaald wat je wilt meten, is het essentieel te kiezen hoe je de gegevens gaat verzamelen. In voedingsmiddelenonderzoek worden verschillende dataverzamelingsmethoden gebruikt, afhankelijk van het type onderzoek: beschrijvend, exploratief, of toetsend.
+
+### Datacollectie bij beschrijvend en exploratief onderzoek
+
+1.  **Gebruik van bestaande informatie**: Dit is een snelle en kostenefficiënte methode waarbij gebruik wordt gemaakt van bestaande datasets, zoals nationale voedselconsumptiepeilingen. Het is vooral nuttig voor grootschalig populatieonderzoek of wanneer directe dataverzameling moeilijk is.
+
+2.  **Interviews, vragenlijsten en voedingsdagboeken**: Deze methoden zijn ideaal voor het meten van gevoelens, houdingen, kennis en voedselinname. Veelgebruikte tools zijn de **voedingsfrequentievragenlijsten (FFQ)**, die een beeld geven van de inname over langere tijd, en de **24-uurs voedingsrecall**, waarmee gedetailleerde informatie over de voedselinname van één dag wordt verkregen. Daarnaast zijn **voedingsdagboeken** nuttig, waarbij deelnemers meerdere dagen hun voedselinname gedetailleerd vastleggen. De betrouwbaarheid van deze methoden kan echter worden beïnvloed door geheugen- en sociale wenselijkheidseffecten (*recall bias* en *social desirability bias*).
+
+3.  **Observeren**: Directe observatie kan waardevol zijn voor het meten van daadwerkelijk eetgedrag. Het is echter tijdrovend en kan ethische kwesties met zich meebrengen, zoals privacy. Het wordt voornamelijk gebruikt wanneer zelfrapportage minder betrouwbaar is of om gedrag te valideren.
+
+### Datacollectie bij toetsend onderzoek
+
+In **toetsend onderzoek** wordt vaak gebruik gemaakt van **experimentele interventies** om causale relaties te testen. Hieronder vallen verschillende methoden:
+
+-   **Randomized Controlled Trials (RCT's)**: De meest rigoureuze vorm van experimenteel onderzoek waarbij deelnemers willekeurig worden toegewezen aan een interventie- of controlegroep. Door randomisatie worden verstorende factoren geminimaliseerd, wat de interne validiteit verhoogt.
+
+-   **Quasi-experimenten**: Dit zijn ook experimentele interventies, maar zonder volledige randomisatie. Ze worden gebruikt wanneer randomisatie niet haalbaar of ethisch is. Deze studies zijn vatbaarder voor vertekening, maar blijven nuttig om causale verbanden te onderzoeken.
+
+Beide vormen vallen onder experimentele interventies, waarbij het verschil vooral zit in de mate van controle over verstorende factoren.
+
+::: {.callout-tip icon="false" collapse="true" title="Randomisatie en ethiek"}
+Een voorbeeld waarbij randomisatie niet ethisch is, betreft een onderzoek naar de effecten van roken op de gezondheid. Het zou onethisch zijn om mensen willekeurig toe te wijzen aan een groep die moet beginnen met roken, gezien de bekende gezondheidsrisico's. In zulke gevallen wordt een **quasi-experiment** gebruikt, waarbij onderzoekers bestaande rokers en niet-rokers vergelijken zonder zelf in te grijpen in de rookgewoonten van de deelnemers. Op deze manier kunnen onderzoekers toch conclusies trekken over de effecten van roken zonder een onethisch experiment uit te voeren.
+:::
+
+## Gestructureerde en ongestructureerde dataverzameling
+
+**Gestructureerde dataverzameling** gebruikt vooraf vastgestelde vragen of categorieën, zoals bij vragenlijsten en voedselfrequentievragenlijsten (FFQ). Deze methode biedt consistentie en vergemakkelijkt de analyse, waardoor het ideaal is voor kwantitatief onderzoek. Omdat de antwoorden nauwkeurig en vergelijkbaar zijn, geniet deze methode vaak de voorkeur, vooral wanneer er voldoende voorkennis is over het onderwerp.
+
+**Ongestructureerde dataverzameling** biedt meer flexibiliteit, zoals bij open interviews of observaties. Het is nuttig in situaties met weinig voorkennis, waar diepgaande inzichten gewenst zijn. Hoewel deze methode complexer is om te analyseren, is het nodig bij exploratief onderzoek waar de uitkomst nog onzeker is.
+
+Over het algemeen heeft **gestructureerde dataverzameling** de voorkeur vanwege de nauwkeurigheid en eenvoud bij verwerking. Echter, bij beperkte voorkennis of wanneer een onderwerp verkend wordt, kan een **ongestructureerde aanpak** noodzakelijk zijn om nieuwe informatie te ontdekken.
+
+## Directe en indirecte dataverzameling
+
+**Directe dataverzameling** verwijst naar methoden waarbij je gegevens verzamelt via directe interactie met de onderzoekseenheden. Dit kan via interviews of enquêtes, waarbij concrete begrippen zoals leeftijd, geslacht en gedrag worden gemeten. Ook observatie is een directe methode waarbij het gedrag van mensen of gebeurtenissen direct wordt bekeken.
+
+-   *Voorbeeld*: Het observeren van eetgedrag of het vragen naar leeftijd in een enquête.
+
+**Indirecte dataverzameling** gebeurt via een omweg, waarbij abstracte begrippen zoals stress of werkdruk worden gemeten via meer concrete indicatoren. Indirecte methoden worden vaak gebruikt wanneer het onderwerp te gevoelig is of mensen zich niet bewust zijn van hun gedrag.
+
+-   *Voorbeeld*: Het meten van werkdruk door middel van vragen over symptomen van stress, of het observeren van de gevolgen van gedrag, zoals het analyseren van cocaïnesporen in afvalwater.
+
+De keuze tussen directe en indirecte methoden hangt af van de aard van het onderzoek, het type gegevens dat je wilt verzamelen, en de gevoeligheid van het onderwerp.
+
+::: {.callout-tip icon="false" collapse="true" title="Methoden voor het bepalen van lichaamssamenstelling"}
+Voor het bepalen van lichaamssamenstelling zijn verschillende methoden mogelijk. Onderstaande figuur uit het werk van @gibney2013 toont drie categorieën van methoden om **lichaamssamenstelling** te bepalen: **directe**, **indirecte** en **dubbel indirecte** methoden.
+
+1.  **Directe methoden**: Dit zijn nauwkeurige technieken zoals **karkasanalyse** en **in vivo neutronen activatie-analyse (IVNAA)**, die meestal postmortem worden uitgevoerd.
+
+2.  **Indirecte methoden**: Voorbeelden zijn **densitometrie**, **DXA** (Dual-Energy X-ray Absorptiometry) en **CT/MRI-scans**. Deze meten via modellen of verdunningstechnieken zonder directe fysieke metingen op het lichaam.
+
+3.  **Dubbel indirecte methoden**: Dit omvat methoden zoals **gewicht/hoogte-indexen**, **huidplooidikte**, en **bio-elektrische impedantie**, die vaak schattingen van schattingen gebruiken, wat ze minder nauwkeurig maakt.
+
+![Directe en indirecte methoden om lichaamssamenstelling te bepalen (Gibney et al., 2013)](img/H4_bodycomposition.png){#fig-bodycomposition .illustration fig-align="center" width="400"}
+:::
+
+## Meetniveaus van kenmerken
+
+De kenmerken van onderzoekseenheden kunnen op verschillende meetniveaus worden gemeten, die bepalen hoe je de gegevens kunt analyseren en wat de mogelijkheden zijn voor statistische bewerkingen. Deze meetniveaus zijn: nominaal, ordinaal, interval en ratio. Elk niveau heeft specifieke eigenschappen wat betreft het onderscheiden, ordenen, en het berekenen van verhoudingen en verschillen.
+
+1.  **Nominaal niveau**: Dit meetniveau maakt onderscheid tussen categorieën zonder onderlinge volgorde. Je kunt alleen **tellen** hoe vaak een categorie voorkomt of percentages berekenen. Bijvoorbeeld geboortegeslacht of oogkleur.
+
+    -   *Voorbeeld:* Geboortegeslacht (man, vrouw).
+    -   *Kenmerken:* Onderscheiden.
+    -   *Rekenmogelijkheden:* Tellen, percentages.
+
+2.  **Ordinaal niveau**: De categorieën hebben een volgorde, maar de afstanden tussen de waarden zijn niet gelijk. Je kunt de volgorde **ordenen** en **percentages** berekenen, maar geen precieze verschillen tussen de waarden vaststellen.
+
+    -   *Voorbeeld:* Opleidingsniveau (laag, middel, hoog).
+    -   *Kenmerken:* Onderscheiden, ordenen.
+    -   *Rekenmogelijkheden:* Tellen, percentages, mediaan.
+
+3.  **Intervalniveau**: De verschillen tussen de waarden zijn betekenisvol en gelijk, maar er is geen absoluut nulpunt. Je kunt **gelijke verschillen** berekenen, of het gemiddelde, maar **verhoudingen** (ratio’s) zijn niet mogelijk.
+
+    -   *Voorbeeld:* IQ-scores. Het verschil tussen een IQ van 110 en 120 is hetzelfde als tussen 90 en 100, maar een IQ van 120 betekent niet dubbel zo intelligent als een IQ van 60.
+    -   *Kenmerken:* Onderscheiden, ordenen, gelijke verschillen.
+    -   *Rekenmogelijkheden:* Tellen, centrummaten (gemiddelde, mediaan), spreidingsmaten.
+
+4.  **Rationiveau**: Dit is het hoogste meetniveau, waarbij zowel de verschillen als de verhoudingen betekenisvol zijn, en er is een **absoluut nulpunt**. Je kunt alle soorten berekeningen uitvoeren, inclusief **verhoudingen** en percentages.
+
+    -   *Voorbeeld:* Gewicht of lengte. Een gewicht van 0 betekent geen gewicht, en een persoon van 80 kg weegt dubbel zoveel als iemand van 40 kg.
+    -   *Kenmerken:* Onderscheiden, ordenen, gelijke verschillen, verhoudingen.
+    -   *Rekenmogelijkheden:* Tellen, centrummaten (gemiddelde, mediaan), spreidingsmaten, verhoudingen (ratio’s).
+
+## Het gebruik van antwoordschalen
+
+Antwoordschalen helpen om gegevens te verzamelen door respondenten te vragen hun antwoorden binnen een vaste reeks opties te plaatsen. Hieronder staan enkele veelgebruikte antwoordschalen:
+
+1.  **Tevredenheidsschaal**: Gebruikt om de tevredenheid van een respondent te meten.
+    -   *Voorbeeld:* Hoe tevreden bent u met de klantenservice?\
+        1 = Zeer ontevreden, 2 = Ontevreden, 3 = Neutraal, 4 = Tevreden, 5 = Zeer tevreden.
+2.  **Kwaliteitsschaal**: Meet de perceptie van de kwaliteit van een dienst of product.
+    -   *Voorbeeld*: Hoe beoordeelt u de kwaliteit van dit product?\
+        1 = Slecht, 2 = Matig, 3 = Neutraal, 4 = Goed, 5 = Uitstekend.
+3.  **Frequentieschaal**: Deze schaal meet hoe vaak een bepaald gedrag of actie plaatsvindt.
+    -   *Voorbeeld:* Hoe vaak eet u fruit?\
+        1 = nooit of minder dan 1 keer per maand\
+        2 = 1-3 keer per maand\
+        3 = 1 keer per week\
+        4 = 2-4 dagen per week\
+        5 = 5-6 keer per week\
+        6 = elke dag
+4.  **Likert-schaal**: Dit is een veelgebruikte schaal voor het meten van attitudes of meningen, waarbij respondenten aangeven in welke mate ze het eens of oneens zijn met een bepaalde uitspraak.\
+    -   *Voorbeeld:* Ik ben tevreden met mijn huidige dieet.\
+        1 = Helemaal oneens, 2 = Oneens, 3 = Neutraal, 4 = Eens, 5 = Helemaal eens.
+5.  **Semantische differentiaal**: Dit is een schaal die wordt gebruikt om de connotaties of gevoelsmatige betekenis van een concept of object te meten. Respondenten worden gevraagd om een positie te kiezen tussen twee tegengestelde termen die de extremen van een schaal vormen. Dit meetinstrument is nuttig voor het in kaart brengen van attitudes, percepties en gevoelens. De semantische differentiaal biedt meer nuance dan een Likert-schaal door het gebruik van tegenovergestelde begrippen, en wordt vaak gebruikt in attitudeonderzoek.\
+    -   *Voorbeeld:* Hoe beoordeelt u uw gezondheid?\
+        1 = Slecht, 7 = Uitstekend.\
+        1 = Passief, 7 = Actief.
+
+Het gebruik van antwoordschalen helpt om gegevens te standaardiseren en te kwantificeren, waardoor ze gemakkelijker te analyseren zijn.
+
+## Kwaliteitscriteria van meetinstrumenten
+
+De termen **validiteit**, **betrouwbaarheid**, **accuraatheid** en **precisie** zijn belangrijke kwaliteitscriteria van meetinstrumenten in wetenschappelijk onderzoek. Ze beschrijven verschillende aspecten van de kwaliteit en het vertrouwen in de metingen die een instrument produceert. Hier volgt een overzicht van de onderlinge relaties tussen deze termen:
+
+### Validiteit
+
+Validiteit verwijst naar de mate waarin een meetinstrument daadwerkelijk meet wat het beoogt te meten. Het gaat om de vraag of het meetinstrument geschikt is om de concepten of variabelen die onderzocht worden, accuraat te weerspiegelen. Er zijn verschillende vormen van validiteit, waaronder:
+
+-   **Inhoudsvaliditeit**: De mate waarin het instrument alle relevante aspecten van het te meten concept omvat.
+
+-   **Constructvaliditeit**: De mate waarin het meetinstrument het construct meet dat het beoogt te meten, in plaats van een ander construct.
+
+-   **Criteriumvaliditeit**: De mate waarin de metingen van het instrument overeenkomen met een extern criterium, bijvoorbeeld een gouden standaard.
+
+### Betrouwbaarheid
+
+Betrouwbaarheid verwijst naar de consistentie van de metingen die een instrument produceert. Een betrouwbaar meetinstrument levert bij herhaalde metingen onder dezelfde omstandigheden dezelfde of zeer vergelijkbare resultaten op. Betrouwbaarheid kan worden onderverdeeld in verschillende categorieën:
+
+-   **Interne consistentie**: Hoe consistent de verschillende onderdelen van een meetinstrument zijn in het meten van hetzelfde construct.
+
+-   **Test-hertest betrouwbaarheid**: De mate waarin het meetinstrument dezelfde resultaten geeft wanneer het op verschillende tijdstippen wordt gebruikt onder dezelfde condities.
+
+-   **Interbeoordelaarsbetrouwbaarheid**: De mate waarin verschillende beoordelaars die hetzelfde instrument gebruiken tot dezelfde resultaten komen.
+
+### Accuraatheid
+
+Accuraatheid verwijst naar de mate waarin de metingen van een instrument overeenkomen met de werkelijke of "ware" waarden van de te meten variabele. Een meetinstrument kan bijvoorbeeld een systematische fout bevatten die ervoor zorgt dat de gemeten waarden afwijken van de werkelijke waarden. Accuraatheid betreft dus de afwezigheid van systematische fouten (bias) en wordt vaak geassocieerd met validiteit, aangezien een valide meetinstrument doorgaans ook accuraat is.
+
+### Precisie
+
+Precisie verwijst naar de mate van spreiding of variatie in de metingen die een instrument produceert. Een precisie-instrument geeft steeds dezelfde meting bij herhaalde toepassingen onder dezelfde omstandigheden, zonder veel variatie. Dit is sterk gerelateerd aan betrouwbaarheid: een meetinstrument kan precies zijn (dus weinig variatie), maar dat betekent niet noodzakelijk dat het ook accuraat is. Een precisie-instrument kan consequent verkeerde waarden meten (lage validiteit), maar met zeer weinig spreiding (hoge betrouwbaarheid).
+
+### Onderlinge relaties
+
+-   **Validiteit en betrouwbaarheid**: Een meetinstrument kan betrouwbaar zijn zonder valide te zijn, maar een valide meetinstrument moet per definitie betrouwbaar zijn. Betrouwbaarheid is een noodzakelijke, maar geen voldoende voorwaarde voor validiteit.
+
+-   **Accuraatheid en precisie**: Een meetinstrument kan precies (weinig variatie) zijn zonder accuraat te zijn (de gemeten waarden kunnen systematisch afwijken van de werkelijke waarden). Accuraatheid en precisie zijn dus complementair: een goed meetinstrument moet zowel accuraat (gemiddeld gezien juist) als precies (met weinig spreiding) zijn.
+
+### Relatie tussen accuraatheid en precisie
+
+Een bekende manier om deze termen te visualiseren is door te kijken naar een schietschijf:
+
+-   **Hoge accuraatheid en hoge precisie**: Alle schoten zijn dicht bij het doel (de werkelijke waarde) en dicht bij elkaar (weinig variatie).
+
+-   **Hoge precisie maar lage accuraatheid**: Alle schoten liggen dicht bij elkaar, maar ver van het doel (consistent maar verkeerd).
+
+-   **Hoge accuraatheid maar lage precisie**: De schoten liggen gemiddeld dicht bij het doel, maar met veel variatie.
+
+-   **Lage accuraatheid en lage precisie**: De schoten liggen ver van het doel en zijn verspreid.
+
+![Visuele voorstelling van de relatie tussen accuraatheid en precisie.](img/H4_schietschijf.png){#Fig-schietschijf .illustration width="250"}
+
+Samenvattend verwijzen **validiteit** en **accuraatheid** naar de juistheid van de meting, terwijl **betrouwbaarheid** en **precisie** meer te maken hebben met de consistentie en reproduceerbaarheid van de meting. Een goed meetinstrument streeft naar zowel validiteit als betrouwbaarheid, evenals een hoge mate van accuraatheid en precisie.

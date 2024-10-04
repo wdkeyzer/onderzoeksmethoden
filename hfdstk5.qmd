@@ -1,0 +1,184 @@
+---
+title: "Epidemiologie"
+---
+
+Bij epidemiologisch onderzoek naar ziektepatronen in een populatie is het essentieel om nauwkeurig vast te stellen hoe vaak ziektes voorkomen en hoe sterk deze samenhangen met bepaalde risicofactoren. Deze metingen worden uitgedrukt in **ziektefrequentiematen** en **associatiematen**, die helpen bij het kwantificeren van het voorkomen van ziekte en het risico dat individuen lopen op basis van blootstelling aan bepaalde factoren. In dit hoofdstuk worden de belangrijkste ziektematen besproken, zoals **prevalentie**, **incidentie**, **cumulatieve incidentie**, en **incidentiedichtheid**, evenals associatiematen zoals het **attributieve risico**, **relatief risico** en de **odds ratio**.
+
+::: {.callout-note collapse="true" title="Leerdoelen"}
+1.  **Definiëren van ziektematen**: De student kan ziektematen zoals prevalentie, incidentie, cumulatieve incidentie en incidentiedichtheid beschrijven en berekenen.
+
+2.  **Verschillende associatiematen toepassen**: De student kan associatiematen zoals het attributieve risico, relatieve risico en de odds ratio berekenen en interpreteren.
+
+3.  **Kiezen van de juiste ziektemaat**: De student kan bepalen welke ziektemaat geschikt is voor een specifiek type onderzoek, gebaseerd op de beschikbare gegevens en de onderzoeksopzet.
+
+4.  **Berekenen van risico's in epidemiologische studies**: De student kan het risico op ziekte bij blootgestelde en niet-blootgestelde populaties berekenen en uitleggen hoe deze maten worden gebruikt om verbanden tussen risicofactoren en ziekte te evalueren.
+:::
+
+## Definitie en reikwijdte
+
+Epidemiologie is de wetenschap die zich bezighoudt met het onderzoeken van de verdeling van ziekten en andere gezondheidsgerelateerde kenmerken binnen menselijke populaties, evenals de factoren die deze verdelingen beïnvloeden. Het doel van epidemiologisch onderzoek is om patronen van ziektevoorkomen te begrijpen en de oorzaken (determinanten) van deze ziekten op te sporen, zodat interventies ontwikkeld kunnen worden om de volksgezondheid te verbeteren.
+
+Historisch gezien lag de nadruk van de epidemiologie vooral op infectieziekten, zoals cholera en de pest, die zich vaak snel binnen en tussen populaties verspreiden. Door de jaren heen heeft het vakgebied echter een bredere focus gekregen. Vanaf het begin van de twintigste eeuw werd er steeds meer aandacht besteed aan chronische ziekten, zoals hart- en vaatziekten, diabetes, en kanker. Veel van deze chronische aandoeningen zijn gerelateerd aan leefstijl, en met name aan voeding. De epidemiologie van voeding, ook wel voedingsepidemiologie genoemd, heeft zich sindsdien ontwikkeld tot een belangrijk onderzoeksdomein binnen de epidemiologie, met als doel het ontrafelen van de rol van voedingspatronen en voedingsstoffen in de ontwikkeling van deze ziekten.
+
+Deze verschuiving naar chronische ziekten weerspiegelt veranderingen in de volksgezondheid: waar infectieziekten vroeger de belangrijkste doodsoorzaak waren, zijn dat tegenwoordig vooral ziekten die verband houden met veroudering en leefstijl, waaronder voeding.
+
+## Eerste epidemiologische studie
+
+Een van de meest invloedrijke figuren in de geschiedenis van de epidemiologie is **Dr. John Snow** (1813-1858), een Londense arts die wordt beschouwd als de grondlegger van moderne epidemiologie. Zijn onderzoek naar de **cholera-epidemie** in 1854 in Londen wordt vaak gezien als de eerste systematische epidemiologische studie.
+
+In die tijd was men ervan overtuigd dat cholera via de lucht werd overgedragen, een theorie die bekendstond als de 'miasmatheorie'. Dr. Snow twijfelde echter aan deze hypothese en vermoedde dat de besmetting via water werd verspreid. Tijdens een ernstige cholera-uitbraak in het Soho-district van Londen begon hij gegevens te verzamelen door het aantal doden per huis vast te leggen. Snow bracht deze gegevens in kaart en ontdekte dat de meeste gevallen zich concentreerden rond een specifieke waterpomp op **Broad Street**.
+
+![Dr. Snow telde het aantal doden door cholera per huis en zette dit op een kaart van Londen.](img/H5_broadstreet.png){#Fig-broadstreet .illustration width="500"}
+
+Deze pomp maakte deel uit van het lokale waternetwerk dat water leverde aan het district. Dr. Snow vermoedde dat deze waterbron was besmet en dat het vervuilde water de verspreiding van cholera veroorzaakte. Op basis van zijn bevindingen adviseerde hij de lokale autoriteiten om de hendel van de pomp op Broad Street te verwijderen, zodat mensen geen water meer konden halen. Na het verwijderen van de hendel nam het aantal nieuwe cholera-gevallen snel af, wat zijn theorie verder ondersteunde.
+
+Deze studie van Dr. Snow markeerde een keerpunt in de geneeskunde en het volksgezondheidsonderzoek. Het toonde niet alleen de kracht van zorgvuldige gegevensverzameling en -analyse aan, maar legde ook de basis voor de ontwikkeling van de epidemiologie als wetenschappelijke discipline. Het idee dat ziekten door specifieke, identificeerbare bronnen kunnen worden verspreid, en dat het mogelijk is om deze verspreiding te stoppen door deze bronnen te controleren, is sindsdien fundamenteel voor het vakgebied gebleven.
+
+Dr. Snow’s werk met de Broad Street-pomp wordt nu gezien als een klassiek voorbeeld van 'veldonderzoek' in de epidemiologie en wordt vaak genoemd als een van de eerste successen van interventie gebaseerd op wetenschappelijk bewijs.
+
+## Ziektefrequentiematen
+
+Ziektefrequentiematen kwantificeren hoe vaak ziektes voorkomen binnen een populatie. Deze frequentiematen worden berekend op basis van zowel nieuwe als bestaande ziektegevallen en geven een overzicht van de ziektebelasting binnen een bepaalde tijdsperiode.
+
+### Prevalentie
+
+De prevalentie geeft het aantal bestaande ziektegevallen weer op een bepaald moment in de tijd, gedeeld door het totale aantal personen in de populatie die de ziekte hadden kunnen ontwikkelen (*population at risk*). Deze ziektegevallen behelzen zowel de al langer bestaande als de nog maar recent ontstane (= **puntprevalentie**). De prevalentie wordt meestal weergegeven als een fractie of percentage, het **prevalentiecijfer**.
+
+-   **Formule**:\
+    $$
+     \text{Prevalentie (P)} = \frac{\text{Aantal bestaande ziektegevallen}}{\text{Totale populatie}}
+    $$
+
+-   **Voorbeeld**: In een land met 10 miljoen inwoners zijn er 2 miljoen mensen obees. De puntprevalentie van obesitas is dan:\
+    $$  P = \frac{2.000.000}{10.000.000} = 0,20 $$
+
+    Het prevalentiecijfer = 20%.
+
+### Incidentie
+
+De **incidentie** meet het aantal nieuwe gevallen van een ziekte, of het aantal personen dat een bepaalde ziekte voor de eerste maal ontwikkelt, in de loop van een bepaalde tijdsperiode. De incidentie wordt uitgedrukt als een absoluut aantal, de **absolute incidentie**.
+
+-   **Voorbeeld**: In hetzelfde land komen elk jaar 10.000 nieuwe gevallen van obesitas bij. De absolute incidentie van obesitas is 10.000 per jaar.
+
+De incidentie kan gedeeld worden door een bevolkingsnoemer en zo uitgedrukt worden als de cumulatieve incidentie en de incidentiedichtheid.
+
+#### Cumulatieve incidentie
+
+De **cumulatieve incidentie** wordt berekend door het aantal nieuwe ziektegevallen gedurende een bepaalde tijdsperiode te delen door het aantal personen dat aan het begin van de periode risico loopt op de ziekte. Het resultaat wordt vaak uitgedrukt als een fractie of percentage.
+
+-   **Formule**:\
+    $$ \text{Cumulatieve incidentie (CI)} = \frac{\text{Aantal nieuwe ziektegevallen}}{\text{Aantal personen at risk}}$$
+
+-   **Voorbeeld**: Als in een land met 8 miljoen mensen 10.000 nieuwe gevallen van obesitas optreden, dan is de cumulatieve incidentie:\
+    $$ CI = \frac{10.000}{8.000.000} = 0,00125 $$
+
+    Uitgedrukt als percentage: 0,125%.
+
+#### Incidentiedichtheid
+
+De **incidentiedichtheid** houdt rekening met de tijd die elke persoon in de studie heeft bijgedragen en wordt berekend door het aantal nieuwe ziektegevallen te delen door het totale aantal persoonsjaren dat door de populatie is geleefd. Het is vooral nuttig wanneer personen gedurende verschillende periodes worden gevolgd.
+
+-   **Formule**:\
+    $$ \text{Incidentiedichtheid (ID)} = \frac{\text{Aantal nieuwe ziektegevallen}}{\text{Aantal persoonsjaren}} $$
+
+-   **Voorbeeld**: In een cohortstudie werden 800 personen gedurende 20 jaar gevolgd en 150 personen gedurende 10 jaar. Het aantal nieuwe gevallen van longkanker was 80. De incidentiedichtheid is dan:\
+    $$ ID = \frac{80}{(800 \times 20) + (150 \times 10)} = \frac{80}{17.500} \approx 0.00457143 $$ oftewel 4,57 gevallen per 1.000 persoonsjaren.
+
+## Associatiematen
+
+Associatiematen worden gebruikt om het verband tussen blootstelling aan een risicofactor en het optreden van een ziekte te kwantificeren. Ze helpen onderzoekers te begrijpen in welke mate een bepaalde blootstelling bijdraagt aan het ontwikkelen van een ziekte.
+
+::: {.callout-tip icon="false" collapse="true" title="Stappenplan berekenen van associatiematen"}
+Het stappenplan voor associatiematen bestaat uit drie belangrijke fasen die helpen bij het bepalen van de sterkte van een verband tussen blootstelling (exposure) en uitkomst (outcome), zoals een ziekte. Hier volgt een beschrijving van elke stap, inclusief de bijbehorende formules:
+
+#### 1. Bepaal het onderzoeksontwerp: prospectief of retrospectief? {.unnumbered}
+
+In deze stap wordt vastgesteld of het onderzoek prospectief (vooruitkijkend) of retrospectief (terugkijkend) is. Bij een prospectief onderzoek worden deelnemers gevolgd in de tijd, terwijl bij een retrospectief onderzoek wordt teruggekeken naar gegevens die al verzameld zijn. Deze keuze is belangrijk omdat het invloed heeft op hoe de gegevens worden geanalyseerd. Bij prospectief onderzoek wordt het relatieve risico (RR) berekend (vergelijking van het aantal mensen dat de ziekte ontwikkelt ten opzichte van de totale groep bij blootgestelden en niet-blootgestelden), terwijl bij retrospectief onderzoek de odds ratio (OR) wordt berekend (vergelijking van het aantal blootgestelden ten opzichte van de totale groep bij zieken en niet-zieken).
+
+#### 2. Maak een standaard kruistabel en vul de getallen in {.unnumbered}
+
+Vervolgens wordt een kruistabel opgesteld waarin de blootstelling en de uitkomst worden weergegeven. In deze tabel worden de deelnemers verdeeld over vier categorieën:
+
+-   **a**: deelnemers die zowel aan de blootstelling zijn blootgesteld als de ziekte hebben.
+-   **b**: deelnemers die aan de blootstelling zijn blootgesteld, maar de ziekte niet hebben.
+-   **c**: deelnemers die niet aan de blootstelling zijn blootgesteld, maar wel de ziekte hebben.
+-   **d**: deelnemers die niet aan de blootstelling zijn blootgesteld en de ziekte ook niet hebben.
+
+De kruistabel helpt om een overzicht te krijgen van hoe de ziekte en blootstelling binnen de groep zijn verdeeld.
+
+| Exposure (blootstelling) | Outcome (ziekte) aanwezig (+) | Outcome (ziekte) afwezig (-) | Totaal  |
+|-----------------|--------------------|--------------------|---------------|
+| Aanwezig (+)             | a                             | b                            | a+b     |
+| Afwezig (-)              | c                             | d                            | c+d     |
+| Totaal                   | a+c                           | b+d                          | a+b+c+d |
+
+#### 3. Gebruik de formules voor: {.unnumbered}
+
+Er zijn verschillende maten die de associatie tussen blootstelling en ziekte beschrijven. Hieronder staan drie veelgebruikte associatiematen:
+
+-   **Attributief risico (risicoverschil)**: Het attributieve risico geeft het verschil in risico op de ziekte tussen de blootgestelde en de niet-blootgestelde groep. Het wordt berekend met de volgende formule:
+
+    $$
+    \text{Risicoverschil} = \frac{a}{a+b} - \frac{c}{c+d}
+    $$
+
+    Dit geeft aan hoeveel hoger het risico op ziekte is in de blootgestelde groep vergeleken met de niet-blootgestelde groep.
+
+-   **Relatief risico**: Het relatieve risico vergelijkt het risico op ziekte tussen de blootgestelde en niet-blootgestelde groep. De formule hiervoor is:
+
+    $$
+    \text{Relatief risico} = \frac{a / (a+b)}{c / (c+d)}
+    $$
+
+    Dit geeft de verhouding aan van het risico op ziekte in de blootgestelde groep ten opzichte van de niet-blootgestelde groep.
+
+-   **Odds ratio**: De odds ratio vergelijkt de odds (kansen) op ziekte in de blootgestelde groep met die in de niet-blootgestelde groep. De formule hiervoor is:
+
+    $$
+    \text{Odds ratio} = \frac{a / c}{b / d} = \frac{a \cdot d}{c \cdot b}
+    $$
+
+    Een odds ratio groter dan 1 duidt op een positieve associatie tussen blootstelling en ziekte, terwijl een waarde kleiner dan 1 op een negatieve associatie wijst.
+:::
+
+### Attributief risico
+
+Het **attributief risico** (AR), ook wel het **risicoverschil**, geeft het verschil in incidentie tussen blootgestelde en niet-blootgestelde groepen weer. Het geeft weer hoeveel gevallen van een ziekte kunnen worden toegeschreven aan een bepaalde risicofactor.
+
+-   **Formule**:\
+    $$  AR = \text{Incidentie bij blootgestelden} - \text{Incidentie bij niet-blootgestelden} $$
+
+-   **Voorbeeld**: In een onderzoek waren 50 van de 100 personen met een erfelijke belasting voor diabetes daadwerkelijk ziek, terwijl dit voor 20 van de 100 personen zonder erfelijke belasting het geval was. Het attributief risico is:\
+    $$  AR = \frac{50}{100} - \frac{20}{100} = 0,30 $$ oftewel 30%. Erfelijkheid veroorzaakt in dit geval 30 extra gevallen van diabetes per 100 erfelijk belaste personen.
+
+### Relatief risico
+
+Het **relatieve risico** (RR) vergelijkt het risico op ziekte bij blootgestelde personen met het risico op ziekte bij niet-blootgestelde personen. Het geeft aan hoe sterk een bepaalde risicofactor bijdraagt aan het ontwikkelen van een ziekte.
+
+-   **Formule**:\
+    $$ RR = \frac{\text{Risico bij blootgestelden}}{\text{Risico bij niet-blootgestelden}} $$
+
+-   **Voorbeeld**: In hetzelfde onderzoek bedraagt het risico op diabetes voor erfelijk belaste personen 50%, terwijl het voor niet-erfelijk belaste personen 20% is. Het relatieve risico is:\
+    $$ RR = \frac{50}{100} \div \frac{20}{100} = 2,5 $$ wat betekent dat mensen met een erfelijke belasting 2,5 keer meer risico lopen op diabetes.
+
+### Odds ratio
+
+De **odds ratio** (OR) vergelijkt de odds van blootstelling aan een risicofactor tussen personen met de ziekte (cases) en personen zonder de ziekte (controls). Het is vooral nuttig in case-control studies.
+
+-   **Formule**: $$ OR = \frac{a/c}{b/d} $$
+
+-   **Voorbeeld**: In een studie naar de associatie tussen roken en longkanker werden de volgende resultaten gevonden:
+
+|                       | Longkanker (case) | Geen longkanker (control) | Totaal |
+|-------------------|----------------|----------------------|----------------|
+| Roken (blootstelling) | 60                | 40                        | 100    |
+| Niet roken            | 20                | 80                        | 100    |
+| **Totaal**            | 80                | 120                       | 200    |
+
+De odds voor roken bij longkanker is: $$ \frac{60}{20} = 3 $$
+
+De odds voor roken bij geen longkanker is: $$ \frac{40}{80} = 0,5 $$
+
+De odds ratio wordt dan: $$ OR = \frac{3}{0,5} = 6 $$
+
+Personen met longkanker hebben 6 keer meer kans om blootgesteld te zijn aan roken dan personen zonder longkanker. Dit suggereert dat er een sterk verband is tussen roken en het ontwikkelen van longkanker.

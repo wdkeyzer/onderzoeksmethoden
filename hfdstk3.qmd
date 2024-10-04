@@ -1,0 +1,249 @@
+---
+title: "Van populatie naar steekproef"
+---
+
+In dit hoofdstuk behandelen we de basisprincipes van steekproeftrekking en de relatie tussen populaties en steekproeven in wetenschappelijk onderzoek. We beginnen met het definiëren van **onderzoekseenheden** en de meetbare **kenmerken** die in een onderzoek worden geanalyseerd. Vervolgens wordt het onderscheid tussen **theoretische**, **beoogde** en **operationele populaties** besproken, evenals het proces van het trekken van een steekproef en de verschillende **methoden** die daarbij kunnen worden gebruikt. Ook komen belangrijke concepten zoals **steekproefgrootte**, **nauwkeurigheid**, **betrouwbaarheid** en **validiteit** aan bod. Tot slot worden veelvoorkomende vormen van **steekproefbias** behandeld, zoals **selectiebias** en **non-response bias**, en worden strategieën besproken om deze bias te verminderen en de **representativiteit** en **validiteit** van de steekproef te waarborgen.
+
+::: {.callout-note title="Leerdoelen" collapse="true"}
+1.  **Begrijpen van onderzoekseenheden en onderzoekskenmerken**: De student kan uitleggen wat onderzoekseenheden zijn en verschillende meetbare onderzoekskenmerken identificeren die relevant zijn voor het analyseren van data.
+
+2.  **Onderschied maken tussen populaties en steekproeven**: De student kan het verschil uitleggen tussen een theoretische populatie, beoogde populatie, operationele steekproef en daadwerkelijke steekproef, en hoe deze concepten met elkaar in verband staan.
+
+3.  **Toepassen van verschillende steekproeftrekkingsmethoden**: De student kan de kenmerken van verschillende steekproeftrekkingsmethoden (zoals willekeurige en niet-willekeurige steekproeven) beschrijven en aangeven wanneer elke methode het meest geschikt is voor een specifiek onderzoek.
+
+4.  **Begrijpen van de steekproefgrootte**: De student kan de factoren die de steekproefgrootte beïnvloeden begrijpen, zoals betrouwbaarheidsniveau, foutenmarge en geschatte proportie binnen een populatie, en kan verklaren hoe deze factoren de grootte van de steekproef bepalen, ook wanneer de populatiegrootte onbekend is.
+
+5.  **Herkennen en oplossen van steekproefbias**: De student kan vormen van steekproefbias, zoals selectiebias en non-response bias, herkennen en strategieën toepassen om deze te verhelpen of te minimaliseren.
+
+6.  **Nauwkeurigheid en betrouwbaarheid van de steekproef evalueren**: De student kan het belang van een betrouwbaarheidsinterval en betrouwbaarheidsniveau uitleggen en de impact hiervan op de nauwkeurigheid en betrouwbaarheid van een steekproef beschrijven, met betrekking tot de interne validiteit van het onderzoek.
+
+7.  **Begrijpen hoe representativiteit en validiteit van steekproeven worden verhoogd**: De student begrijpt hoe representativiteit de externe validiteit van een onderzoek beïnvloedt en kan technieken zoals het wegen van eenheden uitleggen om de representativiteit te verbeteren.
+:::
+
+## Onderzoekseenheden en onderzoekskenmerken
+
+**Onderzoekseenheden** zijn de personen, objecten of processen waarover je in je onderzoek gegevens verzamelt. Ze vormen de basis van je onderzoek en kunnen bijvoorbeeld individuen, huishoudens, bedrijven of voedingsproducten zijn.
+
+**Onderzoekskenmerken** (of variabelen) zijn de meetbare eigenschappen van deze eenheden, zoals leeftijd, geslacht, inkomen of voedingsinname. Deze kenmerken worden geanalyseerd om patronen, relaties of verschillen binnen en tussen onderzoekseenheden te identificeren.
+
+## Populatie en steekproef
+
+**Populatie** verwijst naar de volledige groep van eenheden waarover je uitspraken wilt doen in je onderzoek. Dit kan bijvoorbeeld de totale bevolking van een land, alle patiënten met een specifieke aandoening, of alle voedingsproducten in een categorie zijn. Het onderzoeken van de gehele populatie is echter vaak niet haalbaar vanwege tijd- en kostenbeperkingen.
+
+Daarom wordt vaak een **steekproef** getrokken, een selecte subset van de populatie. Een goed getrokken steekproef is representatief, zodat de resultaten die je uit de steekproef haalt, generaliseerbaar zijn naar de volledige populatie.
+
+![Van populatie naar steekproef.](img/H3_population.png){#Fig-populatie .illustration width="600"}
+
+### Theoretische populatie
+
+De theoretische populatie (**theoretical population**) is een bredere, idealere versie van de beoogde populatie. Dit is de populatie waar de onderzoeker in theorie uitspraken over wil doen, zonder praktische beperkingen zoals toegang of meetbaarheid. In sommige gevallen kan de theoretische populatie groter en minder gedefinieerd zijn dan de beoogde populatie.
+
+**Voorbeeld:** *Voor een studie over het effect van een dieetinterventie zou de theoretische populatie 'alle mensen ter wereld' kunnen zijn, hoewel de onderzoeker zich in werkelijkheid moet beperken tot een specifieke regio of groep.*
+
+### Beoogde populatie
+
+De beoogde populatie (**target population**) verwijst naar de groep mensen of objecten waar het onderzoek zich op richt en waarover de onderzoeker conclusies wil trekken. Deze populatie is meestal afgeleid van de onderzoeksvraag. Het omvat alle individuen of eenheden die relevant zijn voor het onderwerp van de studie.
+
+**Voorbeeld:** *In een studie over voedingspatronen bij adolescenten kan de beoogde populatie alle adolescenten (bijvoorbeeld 12-18 jaar) in een bepaald land zijn.*
+
+### Operationele steekproef
+
+De operationele steekproef (**sampling frame**) is de praktische vertaling van de beoogde populatie. Dit is de lijst of verzameling van individuen of eenheden waaruit de steekproef daadwerkelijk getrokken wordt. Het operationele kader is vaak kleiner dan de beoogde populatie vanwege beperkingen zoals beschikbaarheid van gegevens, toegang tot respondenten of logistieke beperkingen.
+
+**Voorbeeld:** *Als de beoogde populatie adolescenten in een heel land omvat, kan de operationele steekproef bestaan uit een lijst van middelbare scholen in dat land, waarvan leerlingen worden geselecteerd.*
+
+### Steekproef
+
+De steekproef (**sample**)is de daadwerkelijke groep personen of eenheden die wordt geselecteerd uit de operationele steekproef voor deelname aan het onderzoek. Dit is de groep die daadwerkelijk wordt onderzocht en waarvan de gegevens worden verzameld. De steekproef moet representatief zijn voor de operationele steekproef, en bij uitbreiding voor de beoogde populatie, om valide conclusies te kunnen trekken.
+
+**Voorbeeld:** *Uit de lijst van scholen (operationele steekproef) kan de onderzoeker een steekproef trekken van leerlingen die meedoen aan de studie.*
+
+## Steekproeftrekking
+
+### Soorten steekproeven
+
+Er zijn verschillende methoden van steekproeftrekking, die meestal worden onderverdeeld in **willekeurige** (probabilistische) en **niet-willekeurige** (non-probabilistische) steekproeven.
+
+#### Willekeurige steekproeven
+
+Bij willekeurige steekproeven heeft elk individu of elke eenheid in de populatie een bekende kans om geselecteerd te worden. Dit verhoogt de kans dat de steekproef representatief is voor de populatie, wat de generaliseerbaarheid van de resultaten bevordert.
+
+-   **Eenvoudige aselecte steekproef**: Elke eenheid heeft dezelfde kans om te worden geselecteerd. Dit kan worden bereikt met behulp van een willekeurige getallenreeks of software.
+
+-   **Gestratificeerde steekproef**: De populatie wordt verdeeld in subgroepen (strata) op basis van bepaalde kenmerken (bijvoorbeeld leeftijd of geslacht), waarna uit elk stratum een willekeurige steekproef wordt getrokken. Dit zorgt ervoor dat de steekproef representatief is voor alle belangrijke subgroepen binnen de populatie.
+
+-   **Clustersteekproef**: De populatie wordt verdeeld in clusters (bijvoorbeeld op geografische basis), waarna willekeurig enkele clusters worden geselecteerd, en vervolgens worden binnen die clusters steekproeven getrokken.
+
+-   **Systematische steekproef**: De eerste eenheid wordt willekeurig gekozen, waarna elke volgende eenheid op vaste intervallen wordt geselecteerd (bijvoorbeeld elke 10de persoon).
+
+#### Niet-willekeurige steekproeven
+
+Bij niet-willekeurige steekproeven is de kans om geselecteerd te worden niet gelijk of niet bekend voor elk individu in de populatie. Deze methoden worden vaak gebruikt wanneer willekeurige steekproeftrekking moeilijk of onmogelijk is.
+
+-   **Convenience sampling** (gemakssteekproef): De onderzoeker selecteert eenheden die gemakkelijk beschikbaar zijn. Dit is eenvoudig, maar leidt vaak tot steekproeven die niet representatief zijn.
+
+-   **Doelgerichte steekproef**: De onderzoeker selecteert eenheden op basis van specifieke kenmerken of criteria die relevant zijn voor het onderzoek. Een **quotasteekproef** valt niet precies onder een van de drie genoemde steekproeftrekkingen, maar heeft wel enkele overeenkomsten met de **doelgerichte steekproef**.
+
+-   **Quotasteekproef**: Hierbij stelt de onderzoeker vooraf vast *hoeveel* deelnemers met bepaalde kenmerken in de steekproef moeten worden opgenomen. De steekproef wordt verdeeld in quota (bijvoorbeeld op basis van leeftijd, geslacht, of andere demografische kenmerken), en de onderzoeker selecteert individuen totdat elk quota is vervuld. Dit lijkt op doelgerichte steekproeftrekking omdat de selectie gebaseerd is op specifieke kenmerken, maar het verschilt doordat de onderzoeker niet per se deelnemers kiest op basis van hun geschiktheid voor het onderzoek, maar om quota te vullen.
+
+-   **Sneeuwbalsteekproef**: Hierbij vraagt de onderzoeker aan deelnemers om nieuwe deelnemers aan te brengen. Dit wordt vaak gebruikt bij moeilijk te bereiken populaties.
+
+### Steekproefgrootte
+
+Een belangrijk onderdeel van steekproeftrekking is het bepalen van de juiste steekproefgrootte. De steekproef moet groot genoeg zijn om betrouwbare resultaten te verkrijgen, maar klein genoeg om haalbaar te blijven binnen de beschikbare middelen. Factoren die hierbij een rol spelen zijn:
+
+-   Het gewenste betrouwbaarheidsinterval en betrouwbaarheidsniveau.
+
+-   De variabiliteit binnen de populatie.
+
+-   De verwachte effectgrootte.
+
+-   De beschikbare middelen en tijd.
+
+::: {.callout-tip icon="false" collapse="true" title="Berekening steekproefomvang: onderzoek naar het percentage volwassenen met een tekort aan vitamine D"}
+Stel dat je een voedingsonderzoek uitvoert naar het percentage volwassenen in een stad dat een tekort aan vitamine D heeft. Uit eerdere studies blijkt dat ongeveer **20%** van de volwassenen een vitamine D-tekort heeft. Je wilt met een betrouwbaarheidsniveau van **95%** en een foutenmarge van **5%** een representatieve steekproefgrootte berekenen.
+
+#### Stap 1: Gegevens {.unnumbered include-in-toc=false}
+
+-   **p** = 0,20 (20% van de volwassenen heeft naar verwachting een vitamine D-tekort)
+-   **Z** = 1,96 (voor een betrouwbaarheidsniveau van 95%)
+-   **e** = 0,05 (foutenmarge van 5%)
+
+#### Stap 2: Invullen van de formule {.unnumbered .exclude}
+
+De formule van steekproefgrootte voor ongekende populaties is:
+
+$$
+n = \frac{Z^2 \cdot p \cdot (1 - p)}{e^2}
+$$
+
+We vullen de waarden in:
+
+$$
+n = \frac{(1,96)^2 \cdot 0,20 \cdot (1 - 0,20)}{(0,05)^2}
+$$ $$
+n = \frac{(1,96)^2 \cdot 0,20 \cdot 0,80}{(0,05)^2}
+$$ $$
+n = \frac{3,8416 \cdot 0,16}{0,0025} = \frac{0,6147}{0,0025} = 245,88
+$$
+
+#### Stap 3: Afronden {.unnumbered .exclude}
+
+Je hebt dus een steekproefgrootte van **246** nodig om met **95% zekerheid** een foutenmarge van **5%** te hebben bij het schatten van het percentage volwassenen met een vitamine D-tekort.
+
+#### Opmerking: {.unnumbered .exclude}
+
+-   Omdat de proportie **p = 0,20** (dus slechts 20% van de populatie wordt verwacht een tekort te hebben), is er minder variabiliteit in de populatie. Dit betekent dat een kleinere steekproefgrootte nodig is in vergelijking met een proportie van 0,5, waarbij de variabiliteit maximaal zou zijn.
+
+-   Als je geen voorkennis had dan zou je een proportie van **p = 0,5** gebruiken (maximale onzekerheid over het percentage vitamine D-tekort), waardoor zou je een steekproefgrootte van **385** nodig zou hebben in plaats van **246**.
+:::
+
+### Steekproefbias
+
+Steekproeftrekking kan leiden tot verschillende vormen van bias, wat de validiteit van de resultaten kan beïnvloeden. Twee voorbeelden hiervan zijn selectiebias en non-response bias.
+
+#### Selectiebias
+
+Selectiebias ontstaat wanneer bepaalde groepen binnen de populatie systematisch worden uitgesloten of oververtegenwoordigd in de steekproef.Dit kan leiden tot vertekeningen in de onderzoeksresultaten en beperkt de generaliseerbaarheid van de conclusies.
+
+Manieren om selectiebias te verminderen:
+
+-   **Aselecte steekproeftrekking**: Gebruik een willekeurige steekproefmethode waarbij elk individu in de populatie een gelijke kans heeft om geselecteerd te worden. Hierdoor worden subgroepen niet systematisch over- of ondervertegenwoordigd.
+
+-   **Stratificatie**: Bij een gestratificeerde steekproef wordt de populatie opgedeeld in relevante subgroepen (bijvoorbeeld op basis van leeftijd, geslacht, inkomen). Uit elke subgroep wordt vervolgens een evenredige steekproef genomen. Dit zorgt ervoor dat alle belangrijke subgroepen adequaat worden vertegenwoordigd.
+
+-   **Gebruik van een uitgebreid sampling frame**: Zorg ervoor dat de operationele steekproef (sampling frame) een nauwkeurige weergave is van de totale beoogde populatie. Probeer geen subgroepen uit te sluiten door een te smalle operationele steekproef te gebruiken (bijv. alleen mensen met internettoegang).
+
+-   **Wegen van resultaten**: Als bepaalde groepen toch over- of ondervertegenwoordigd zijn, kunnen gewichten worden toegepast op de resultaten. Dit compenseert voor de onevenwichtige representatie van bepaalde subgroepen in de steekproef.
+
+#### Non-response bias
+
+Non-response bias ontstaat wanneer een substantieel deel van de benaderde steekproef niet reageert of weigert deel te nemen aan het onderzoek. Dit kan leiden tot vertekeningen omdat de non-respondenten vaak verschillen van de respondenten, bijvoorbeeld in houding, gedrag of demografische kenmerken.
+
+Manieren om non-response bias te verminderen:
+
+-   **Verhoog de respons door reminders**: Stuur meerdere herinneringen of opvolgmails naar de benaderde personen om de kans op deelname te verhogen. Dit kan helpen om de non-response te verlagen.
+
+-   **Incentives bieden**: Het aanbieden van een kleine beloning of compensatie voor deelname kan de respons aanzienlijk verbeteren en non-response bias beperken.
+
+-   **Gebruik van meerdere contactmethoden**: Soms kan non-response het gevolg zijn van de gekozen benaderingsmethode. Door verschillende contactmethoden te gebruiken (bijv. post, telefoon, e-mail) vergroot je de kans dat een grotere verscheidenheid aan mensen deelneemt.
+
+-   **Non-respondenten analyseren**: Analyseer de demografische kenmerken van degenen die niet hebben gereageerd. Als je merkt dat non-respondenten systematisch verschillen van respondenten, kun je deze gegevens gebruiken om correcties toe te passen (bijvoorbeeld door gewichten toe te passen) om de vertekening te beperken.
+
+-   **Opvolgonderzoek onder non-respondenten**: Als het mogelijk is, probeer een kleine steekproef van non-respondenten te benaderen voor een vervolgonderzoek. Dit kan helpen om de mate van vertekening te begrijpen en eventueel te corrigeren.
+
+::: {.callout-tip icon="false" collapse="true" title="Oefening non-respons"}
+Je hebt als doel om uiteindelijk **100 respondenten** in je steekproef te krijgen. Echter, je weet dat niet iedereen die je benadert, zal deelnemen. In dit geval bedraagt de **non-respons 20%**, wat betekent dat 20% van de mensen die je benadert, niet zal reageren of niet wil deelnemen aan het onderzoek.
+
+#### Vraag: {.unnumbered .exclude}
+
+Hoeveel personen moet je in totaal benaderen om uiteindelijk **100 respondenten** te verkrijgen, rekening houdend met een non-respons van **20%**?
+
+#### Berekening: {.unnumbered .exclude}
+
+Als je ervan uitgaat dat **80%** van de benaderde personen (dus 100% - 20% non-respons) daadwerkelijk zal deelnemen, dan moet je berekenen hoeveel mensen je moet benaderen om uiteindelijk precies **100** respondenten te krijgen. Dit doe je door het aantal gewenste respondenten te delen door het percentage dat wél zal deelnemen (in dit geval **0,80**).
+
+$$
+\text{Benaderde personen} = \frac{\text{Gewenste respondenten}}{\text{Percentage respons}}
+$$
+
+$$
+\text{Benaderde personen} = \frac{100}{0.80} = 125
+$$
+
+Dit betekent dat je **125 personen** moet benaderen om uiteindelijk **100 respondenten** te krijgen, rekening houdend met de non-respons van **20%**.
+
+#### Opmerking: {.unnumbered .exclude}
+
+-   Het is een veelvoorkomende fout om te denken dat je slechts **20% extra** personen moet benaderen, wat zou betekenen dat je **120** mensen zou benaderen (100 + 20). Dit klopt niet, omdat niet iedereen die extra benaderd wordt, ook zal reageren.
+-   Immers, voor elke **5 extra benaderde personen** is er **1 persoon** die niet op de uitnodiging ingaat, vanwege de non-respons van **20%**. Daarom moet je in totaal **25% extra** personen benaderen (wat neerkomt op 125 personen in totaal), en niet slechts **20 extra** personen.
+
+Conclusie: Om **100 respondenten** te behalen met een **non-respons van 20%**, moet je **125** personen benaderen.
+:::
+
+### Nauwkeurigheid en betrouwbaarheid van de steekproef
+
+Bij het evalueren van een steekproef is het essentieel om de **nauwkeurigheid** en **betrouwbaarheid** van de resultaten te overwegen, die een rol spelen in de *interne validiteit* van het onderzoek. Het **betrouwbaarheidsinterval** geeft een indicatie van de statistische nauwkeurigheid van de schattingen. Hoe kleiner het interval, hoe dichter de geschatte waarde bij de werkelijke waarde van de populatie ligt, wat wijst op hogere nauwkeurigheid. Het **betrouwbaarheidsniveau** (bijvoorbeeld 95%) geeft aan hoe zeker we kunnen zijn dat de werkelijke waarde binnen dit interval ligt. Dit zegt iets over de betrouwbaarheid van de resultaten bij herhaalde steekproefnemingen. Deze elementen versterken de *interne validiteit*, omdat ze betrekking hebben op de precisie en consistentie van de resultaten binnen de steekproef zelf.
+
+We kunnen dit illustreren aan de hand van een concreet voorbeeld:
+
+#### Casus: Onderzoek naar de gemiddelde zoutinname onder volwassenen {.unnumbered .exclude}
+
+Stel dat je een onderzoek uitvoert naar de gemiddelde zoutinname van volwassenen in een bepaalde regio. Uit een steekproef van **500 volwassenen** blijkt dat de gemiddelde dagelijkse zoutinname **8 gram** is. Je wilt weten hoe nauwkeurig deze schatting is en hoe betrouwbaar je resultaten zijn.
+
+#### Betrouwbaarheidsinterval {.unnumbered .exclude}
+
+Het betrouwbaarheidsinterval geeft aan in welk bereik de werkelijke zoutinname van de populatie naar verwachting ligt. Stel dat je berekent dat het **95% betrouwbaarheidsinterval** voor de gemiddelde zoutinname in je steekproef is **7,8 tot 8,2 gram** per dag.
+
+Dit betekent dat je met **95% zekerheid** kunt zeggen dat de werkelijke gemiddelde zoutinname van alle volwassenen in de regio tussen **7,8 en 8,2 gram** per dag ligt. Hoe kleiner dit interval, hoe nauwkeuriger de schatting van de zoutinname is. Een kleiner betrouwbaarheidsinterval (bijvoorbeeld van **7,9 tot 8,1 gram**) zou betekenen dat je schatting dichter bij de werkelijke waarde van de populatie ligt, wat de **nauwkeurigheid** vergroot.
+
+#### Betrouwbaarheidsniveau {.unnumbered .exclude}
+
+Het betrouwbaarheidsniveau van **95%** geeft aan dat als je het onderzoek meerdere keren zou herhalen met verschillende steekproeven, in **95 van de 100** gevallen de werkelijke gemiddelde zoutinname binnen het berekende interval zou liggen (7,8-8,2 gram). Dit zegt iets over de **betrouwbaarheid** van je resultaten: hoe vaak je de juiste waarde zou schatten als je het onderzoek herhaaldelijk zou uitvoeren.
+
+#### Interne validiteit {.unnumbered .exclude}
+
+Deze nauwkeurigheid (kleiner betrouwbaarheidsinterval) en betrouwbaarheid (hoog betrouwbaarheidsniveau) dragen bij aan de **interne validiteit** van het onderzoek. Dit betekent dat je met meer zekerheid kunt zeggen dat de schatting van de zoutinname in je steekproef overeenkomt met de werkelijke waarde voor de gehele populatie. Als je steekproefresultaten consistent en nauwkeurig zijn, is de interne validiteit hoog.
+
+### Representativiteit en externe validiteit
+
+**Representativiteit** verwijst naar hoe goed de steekproef de kenmerken van de volledige populatie weerspiegelt. Een steekproef is representatief wanneer de verdeling van belangrijke kenmerken (zoals leeftijd, geslacht, opleidingsniveau) overeenkomt met die van de populatie. Dit is cruciaal om te kunnen generaliseren naar de bredere populatie, wat de *externe validiteit* van het onderzoek versterkt. **Externe validiteit** betreft de mate waarin de resultaten van de steekproef toepasbaar zijn op andere populaties, contexten of tijdsperiodes. Een representatieve steekproef vergroot de kans dat de bevindingen ook in andere situaties relevant zijn, waardoor de conclusies breder toepasbaar worden.
+
+### Wegen van eenheden in steekproeven
+
+Wanneer de verdeling van kenmerken in een steekproef niet overeenkomt met de populatie, kan de steekproef **gewogen** worden om dit te corrigeren. Elke eenheid in de steekproef krijgt een **gewicht** op basis van hoe goed deze eenheid de populatie vertegenwoordigt. Eenheden uit ondervertegenwoordigde groepen krijgen een zwaarder gewicht, terwijl eenheden uit oververtegenwoordigde groepen een lichter gewicht krijgen. Dit zorgt ervoor dat de resultaten van de steekproef beter aansluiten bij de populatie, en verbetert de representativiteit en externe validiteit van het onderzoek.
+
+::: {.callout-tip icon="false" collapse="true" title="Voorbeeld wegen van eenheden"}
+Stel dat je een onderzoek uitvoert naar voedingsgewoonten, en je hebt een steekproef van 100 personen. In je steekproef bestaat 30% uit mannen en 70% uit vrouwen, maar de populatie bestaat uit 50% mannen en 50% vrouwen. Mannen zijn in je steekproef ondervertegenwoordigd. Om dit te corrigeren, geef je mannen een zwaarder gewicht (bijvoorbeeld 1,67) en vrouwen een lichter gewicht (bijvoorbeeld 0,71), zodat de resultaten beter aansluiten bij de werkelijke verdeling in de populatie.
+
+De gewichten worden berekend door de verhouding in de steekproef te vergelijken met de verhouding in de populatie. Dit doe je door het **percentage van de populatie** te delen door het **percentage van de steekproef**.
+
+-   Mannen in de populatie: 50%, in de steekproef: 30% $$
+    \text{Gewicht voor mannen} = \frac{50\%}{30\%} = 1,67
+    $$
+-   Vrouwen in de populatie: 50%, in de steekproef: 70% $$
+    \text{Gewicht voor vrouwen} = \frac{50\%}{70\%} = 0,71
+    $$
+
+Deze gewichten zorgen ervoor dat de resultaten meer in lijn zijn met de populatieverdeling.
+:::

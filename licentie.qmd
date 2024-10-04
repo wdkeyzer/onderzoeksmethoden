@@ -1,0 +1,51 @@
+---
+number-sections: false
+---
+
+# Licentie {.unnumbered .exclude}
+
+Dit cursusmateriaal is vervaardigd door dr. Willem De Keyzer en valt onder een Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 International Licence (CC BY-NC-SA 4.0).
+
+![](img/CC_BY-NC-ND.png){width="150"}
+
+##### Wat dit betekent: {.unnumbered .exclude}
+
+-   **Naamsvermelding (BY)**: U mag het werk kopiëren, verspreiden, vertonen en opvoeren, en afgeleide werken maken op basis van het werk. Maar u moet de originele auteur van het werk noemen op een wijze zoals door de auteur gespecificeerd, maar niet op een manier die suggereert dat de auteur u of uw gebruik van het werk onderschrijft.
+
+-   **NietCommercieel (NC)**: U mag het werk kopiëren, verspreiden, vertonen en opvoeren, en afgeleide werken maken op basis van het werk, maar niet voor commerciële doeleinden.
+
+-   **GelijkDelen (SA)**: Indien u het werk aanpast of er op een andere manier een afgeleid werk van maakt, dient u het afgeleide werk alleen onder dezelfde licentie als het originele werk te verspreiden.
+
+##### U bent vrij om: {.unnumbered .exclude}
+
+-   **Delen**: het materiaal in elk medium of formaat te kopiëren en te herverdelen
+
+-   **Aanpassen**: het materiaal te remixen, te transformeren en erop voort te bouwen
+
+##### Onder de volgende voorwaarden: {.unnumbered .exclude}
+
+-   **Naamsvermelding**: U moet een passende naam of een link naar de licentie geven, en aangeven als er wijzigingen zijn aangebracht. Dit mag op een redelijke manier, maar niet op een manier die suggereert dat de licentiegever instemt met uw werk of uw gebruik van zijn werk.
+
+-   **NietCommercieel**: U mag het materiaal niet gebruiken voor commerciële doeleinden.
+
+-   **GelijkDelen**: Als u het gemodificeerde materiaal verder verspreidt, moet u uw bijdragen onder dezelfde licentie als het origineel verspreiden.
+
+Voor meer informatie over deze licentie kunt u terecht op de [**Creative Commons website**](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.nl).
+
+##### Citaatsuggestie {.unnumbered .exclude}
+
+> De Keyzer, W. (2024). Onderzoeksmethoden -- Voeding. \[Onuitgegeven cursus\]. Professionele bacheloropleiding in de voedings- en dieetkunde, HOGENT.
+
+
+<!-- Endnote^®^/Zotero^®^ citaatbestand\ -->
+<!-- <a href="my_reference.ris" download>Referentie</a> (download) -->
+
+
+
+```{r echo=FALSE, include=FALSE}
+# deze code chunck laten staan! anders werkt de vorige in line code niet
+Sys.setlocale("LC_TIME", "nl_NL.UTF-8") 
+```
+
+**Versiegeschiedenis:**\
+Dit document werd voor het laatst aangepast op: `r format(Sys.Date(), "%d %B %Y")`

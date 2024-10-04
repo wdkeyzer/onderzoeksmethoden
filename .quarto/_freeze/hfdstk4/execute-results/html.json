@@ -1,0 +1,14 @@
+{
+  "hash": "46b4e78cc769b498462ce82c9eb371ad",
+  "result": {
+    "markdown": "# Onderzoeksontwerpen\n\nIn summary, this book has no content whatsoever.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
