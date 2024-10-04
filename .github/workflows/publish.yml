@@ -31,12 +31,7 @@ jobs:
         with:
           cache-version: 1
 
-      # Step 5: Install TinyTeX for PDF rendering
-      - name: Install TinyTeX
-        run: |
-          Rscript -e 'quarto::install_tinytex()'
-
-      # Step 6: Render and Publish
+      # Step 5: Render and Publish
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
