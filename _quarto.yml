@@ -33,16 +33,16 @@ format:
       dark: darkly
     toc: true  # optional, include table of contents
     toc-depth: 4  # optional, set the depth of the table of contents
-    navbar:
-      left:
-        - text: "Home"
-          href: index.html
-        - text: "Download"
-          menu:
-            - text: "PDF"
-              href: Onderzoeksmethoden---Voeding.pdf
-            - text: "EPUB"
-              href: Onderzoeksmethoden---Voeding.epub
+    # # navbar:
+    #   left:
+    #     - text: "Home"
+    #       href: index.html
+    #     - text: "Download"
+    #       menu:
+    #         - text: "PDF"
+    #           href: Onderzoeksmethoden---Voeding.pdf
+    #         - text: "EPUB"
+    #           href: Onderzoeksmethoden---Voeding.epub
 
   # epub:
   #   toc: true  # optional, include table of contents
@@ -56,7 +56,7 @@ format:
   #   include-in-header:
   #     - _extensions/PrettyPDF/PrettyPDF.tex  # Custom LaTeX template
   #   include-before-body:
-  #     - _extensions/PrettyPDF/pagestyle.tex  # Custom page layout
+  #     - _extensions/PrettyPDF/pagestyle.tex  # Custom page layout:
 
 editor: visual
 
