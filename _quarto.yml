@@ -44,19 +44,19 @@ format:
             - text: "EPUB"
               href: Onderzoeksmethoden---Voeding.epub
 
-  epub:
-    toc: true  # optional, include table of contents
-    toc-depth: 3
-    cover-image: cover.png  # EPUB cover image
-
-  pdf:
-    toc-depth: 3
-    documentclass: scrreprt
-    pdf-engine: xelatex # Ensure xelatex is used for custom fonts
-    include-in-header:
-      - _extensions/PrettyPDF/PrettyPDF.tex  # Custom LaTeX template
-    include-before-body:
-      - _extensions/PrettyPDF/pagestyle.tex  # Custom page layout
+  # epub:
+  #   toc: true  # optional, include table of contents
+  #   toc-depth: 3
+  #   cover-image: cover.png  # EPUB cover image
+  #
+  # pdf:
+  #   toc-depth: 3
+  #   documentclass: scrreprt
+  #   pdf-engine: xelatex # Ensure xelatex is used for custom fonts
+  #   include-in-header:
+  #     - _extensions/PrettyPDF/PrettyPDF.tex  # Custom LaTeX template
+  #   include-before-body:
+  #     - _extensions/PrettyPDF/pagestyle.tex  # Custom page layout
 
 editor: visual
 
