@@ -2,7 +2,7 @@
 title: "Inleiding tot het onderzoeksproces"
 ---
 
-In dit eerste hoofdstuk leggen we de basis voor het begrijpen en uitvoeren van wetenschappelijk onderzoek in voeding en gezondheid. Dit hoofdstuk behandelt de **aanleiding van onderzoek** en maakt het onderscheid tussen **fundamenteel en toegepast onderzoek**. Vervolgens leren we hoe een **probleemstelling** geformuleerd wordt aan de hand van de **5xW+H-methode** en verkennen we de **onderzoekscyclus**. Daarnaast komt de formulering van een **onderzoeksdoelstelling** aan bod, het belang van het zoeken naar **bestaande informatie**, en het verschil tussen **kwantitatief en kwalitatief onderzoek**. We sluiten af met het identificeren van **onderzoekseenheden**, deelpopulaties via de **splitsingstechniek**, en het vaststellen van de juiste **onderzoekskenmerken**.
+In dit eerste hoofdstuk leggen we de basis voor het begrijpen en uitvoeren van wetenschappelijk onderzoek in voeding en gezondheid. We beginnen met de **aanleiding van onderzoek** en maken het onderscheid tussen **fundamenteel en toegepast onderzoek**. Vervolgens leren we hoe een **probleemstelling** geformuleerd wordt aan de hand van de **5xW+H-methode** en verkennen we de **onderzoekscyclus**. Daarnaast komt de formulering van een **onderzoeksdoelstelling** aan bod, het belang van het zoeken naar **bestaande informatie**, en het verschil tussen **kwantitatief en kwalitatief onderzoek**. Verder behandelen we het identificeren van **onderzoekseenheden**, deelpopulaties via de **splitsingstechniek**, en het vaststellen van de juiste **onderzoekskenmerken**. Tot slot sluiten we het hoofdstuk af met een bespreking van de **ethische en juridische overwegingen** bij het verwerken van persoonsgegevens. Hierbij gaan we in op **geïnformeerde toestemming**, **GDPR-richtlijnen** en technieken zoals **anonimiseren en pseudonimiseren** om de privacy van deelnemers te beschermen.
 
 ::: {.callout-note title="Leerdoelen" collapse="true"}
 1.  **Begrijpen van de aanleiding van onderzoek**: Studenten kunnen de noodzaak en het belang van wetenschappelijk onderzoek in voeding en gezondheid uitleggen.
@@ -24,6 +24,8 @@ In dit eerste hoofdstuk leggen we de basis voor het begrijpen en uitvoeren van w
 9.  **Toepassen van de splitsingstechniek**: Studenten kunnen deelpopulaties identificeren en vastleggen op basis van kenmerken zoals leeftijd, geslacht, woonplaats, en gewichtsklasse.
 
 10. **Onderzoekskenmerken vaststellen**: Studenten kunnen onderzoekskenmerken en variabelen definiëren die gemeten moeten worden binnen een populatie en deelpopulatie.
+
+11. **Ethische en juridische overwegingen bij dataverwerking**: Studenten kunnen de ethische en wettelijke vereisten voor het verwerken van persoonsgegevens in onderzoek uitleggen en de toepassing hiervan binnen gezondheidszorgonderzoek onderbouwen.
 :::
 
 ## Aanleiding van onderzoek
@@ -244,7 +246,13 @@ De eerste stap in dit proces is een **oriëntatie op bestaande informatie**. Dit
 
 Een belangrijk onderdeel van het verkennen van bestaande informatie is het uitvoeren van een **literatuuronderzoek**. Hierbij raadpleeg je wetenschappelijke publicaties, artikelen, rapporten en andere bronnen die relevant zijn voor jouw onderwerp. Door literatuur te bestuderen, krijg je inzicht in welke theorieën en methoden al gebruikt zijn in vergelijkbaar onderzoek, en of jouw onderzoek een nieuwe bijdrage kan leveren.
 
-Belangrijke vragen die je jezelf hierbij kunt stellen zijn: - **Waar baseren andere onderzoekers hun theorie op?** - **Wat voor opzet gebruiken andere onderzoekers voor vergelijkbaar onderzoek?** - **Hoe definiëren en meten onderzoekers vergelijkbare kenmerken?**
+Belangrijke vragen die je jezelf hierbij kunt stellen zijn:
+
+\- **Waar baseren andere onderzoekers hun theorie op?**
+
+\- **Wat voor opzet gebruiken andere onderzoekers voor vergelijkbaar onderzoek?**
+
+\- **Hoe definiëren en meten onderzoekers vergelijkbare kenmerken?**
 
 ### Nut van bestaande informatie
 
@@ -271,13 +279,13 @@ Het formuleren van een onderzoeksvraag kan worden ondersteund door de volgende s
 
 Deze vijf stappen helpen je om tot een sterke en heldere onderzoeksvraag te komen. In een volgend hoofdstuk zullen we dieper ingaan op de soorten onderzoeksvragen.
 
-## Kwantitatief versus kwalitatief Ooderzoek
+## Kwantitatief versus kwalitatief onderzoek
 
 Bij het opzetten van een onderzoek is het belangrijk om te bepalen welke benadering je gaat gebruiken: **kwantitatief** of **kwalitatief** onderzoek. Elk van deze onderzoekstypen heeft een eigen focus en methodologie, en de keuze voor een van beide hangt af van het soort vraag dat je wilt beantwoorden.
 
 ### Kwantitatief onderzoek
 
-**Kwantitatief onderzoek** richt zich op het meten van hoeveelheden en cijfers. Het gaat vaak om grootschalige studies waarbij grote hoeveelheden data verzameld worden, zoals enquêtes (surveys), meetresultaten of statistische gegevens. Het doel is om objectieve, meetbare resultaten te verkrijgen die in cijfers kunnen worden uitgedrukt. Dit type onderzoek is vooral geschikt wanneer je concrete feiten of patronen wilt vaststellen, zoals hoeveelheden, aantallen of percentages.
+Kwantitatief onderzoek richt zich op het meten van hoeveelheden en cijfers. Het gaat vaak om grootschalige studies waarbij grote hoeveelheden data verzameld worden, zoals enquêtes (surveys), meetresultaten of statistische gegevens. Het doel is om objectieve, meetbare resultaten te verkrijgen die in cijfers kunnen worden uitgedrukt. Dit type onderzoek is vooral geschikt wanneer je concrete feiten of patronen wilt vaststellen, zoals hoeveelheden, aantallen of percentages.
 
 In kwantitatief onderzoek worden doorgaans **gesloten onderzoeksvragen** gesteld. Dit zijn vragen die duidelijk afgebakend zijn en waarop meestal een vast, concreet antwoord mogelijk is. Denk aan vragen die beginnen met *"Is..."*, *"Hoeveel..."* of *"Wat is het verband tussen..."*.
 
@@ -285,7 +293,7 @@ Voorbeeld van een gesloten onderzoeksvraag: *“Heeft het verhogen van de dageli
 
 ### Kwalitatief onderzoek
 
-**Kwalitatief onderzoek** richt zich meer op de diepere betekenis en beleving van een situatie. Het is een onderzoeksmethode die vaak gebruikt wordt om inzichten te verkrijgen in meningen, motivaties, ervaringen of gedragingen. Dit type onderzoek wordt doorgaans uitgevoerd door middel van interviews, focusgroepen of observaties en levert meestal tekstuele of beschrijvende data op.
+Kwalitatief onderzoek richt zich meer op de diepere betekenis en beleving van een situatie. Het is een onderzoeksmethode die vaak gebruikt wordt om inzichten te verkrijgen in meningen, motivaties, ervaringen of gedragingen. Dit type onderzoek wordt doorgaans uitgevoerd door middel van interviews, focusgroepen of observaties en levert meestal tekstuele of beschrijvende data op.
 
 Kwalitatief onderzoek werkt vaak met **open onderzoeksvragen**. Dit zijn vragen die niet direct met een cijfer of ja/nee te beantwoorden zijn en die ruimte laten voor gedetailleerde, uitgebreide antwoorden. Open vragen beginnen vaak met *"Hoe..."*, *"Waarom..."* of *"Op welke manier..."*.
 
@@ -316,13 +324,19 @@ Bij het uitvoeren van onderzoek is het belangrijk om duidelijk te definiëren **
 
 Onderzoekseenheden zijn de eenheden waarover je informatie verzamelt in het kader van je onderzoek. Dit kunnen personen zijn, maar ook objecten, bedrijven, producten of landen. Het begrip “eenheden” moet breed worden gezien: alles wat je onderzoekt, of dat nu mensen of dingen zijn, wordt beschouwd als een onderzoekseenheid.
 
-Voorbeeld: - In een onderzoek naar het voedingsgedrag van kinderen zijn de kinderen de onderzoekseenheden. - In een onderzoek naar de voedingswaarde van maaltijden in een campusrestaurant zijn de maaltijden de onderzoekseenheden.
+Voorbeeld:
+
+\- In een onderzoek naar het voedingsgedrag van kinderen zijn de kinderen de onderzoekseenheden.
+
+\- In een onderzoek naar de voedingswaarde van maaltijden in een campusrestaurant zijn de maaltijden de onderzoekseenheden.
 
 ### Verschil tussen onderzoekseenheden en respondenten
 
 Het is belangrijk om het verschil tussen **onderzoekseenheden** en **respondenten** te begrijpen. Respondenten zijn vaak de personen die je vraagt om deel te nemen aan je onderzoek, bijvoorbeeld door een vragenlijst in te vullen. Echter, de onderzoekseenheden hoeven niet altijd personen te zijn. In sommige gevallen kan de onderzoekseenheid iets anders zijn, zoals voedingsproducten, en zijn de respondenten slechts betrokken om informatie te verstrekken over de onderzoekseenheden.
 
-Voorbeeld: - In een onderzoek naar voedingsinname tussen verschillende landen kunnen de landen de onderzoekseenheden zijn, terwijl de respondenten de inwoners van die landen zijn, die via vragenlijsten hun voedingsinname rapporteren. Alternatief kan ook gebruik worden gemaakt van balansstudies om een schatting te maken van de gemiddelde voedingsinname per land.
+Voorbeeld:
+
+\- In een onderzoek naar voedingsinname tussen verschillende landen kunnen de landen de onderzoekseenheden zijn, terwijl de respondenten de inwoners van die landen zijn, die via vragenlijsten hun voedingsinname rapporteren. Alternatief kan ook gebruik worden gemaakt van balansstudies om een schatting te maken van de gemiddelde voedingsinname per land.
 
 ### Steekproef, populatie en deelpopulaties
 
@@ -345,7 +359,13 @@ In de figuur hierboven zien we een voorbeeld van de splitsing van **niet zieke p
 3.  **Gewichtsklasse**: BMI \< 25, BMI 25-30, BMI \> 30
 4.  **Geslacht**: Man, vrouw
 
-Door deze kenmerken te combineren, ontstaan deelpopulaties die specifieker zijn dan de totale populatie. Bijvoorbeeld: - Een deelpopulatie van mannen jonger dan 18 jaar met een BMI lager dan 25, woonachtig in Vlaanderen. - Een deelpopulatie van vrouwen tussen de 18 en 65 jaar met een BMI van 25-30, woonachtig in Wallonië. - Een deelpopulatie van ouderen (65+) met een BMI boven de 30, woonachtig in Brussel.
+Door deze kenmerken te combineren, ontstaan deelpopulaties die specifieker zijn dan de totale populatie. Bijvoorbeeld:
+
+\- Een deelpopulatie van mannen jonger dan 18 jaar met een BMI lager dan 25, woonachtig in Vlaanderen.
+
+\- Een deelpopulatie van vrouwen tussen de 18 en 65 jaar met een BMI van 25-30, woonachtig in Wallonië.
+
+\- Een deelpopulatie van ouderen (65+) met een BMI boven de 30, woonachtig in Brussel.
 
 #### Toepassing van de splitsingstechniek
 
@@ -361,9 +381,11 @@ In elk onderzoek is het belangrijk om duidelijk vast te stellen **welke kenmerke
 
 ### Wat zijn onderzoekskenmerken?
 
-**Onderzoekskenmerken** zijn de meetbare eigenschappen of variabelen van de onderzoekseenheden. Dit kunnen fysieke eigenschappen zijn, zoals lengte of gewicht, maar ook gedragingen, meningen of andere meetbare factoren die relevant zijn voor het onderzoek. Ze kunnen zowel kwantitatief (getalsmatig) als kwalitatief (beschrijvend) zijn, afhankelijk van het type onderzoek.
+Onderzoekskenmerken zijn de meetbare eigenschappen of variabelen van de onderzoekseenheden. Dit kunnen fysieke eigenschappen zijn, zoals lengte of gewicht, maar ook gedragingen, meningen of andere meetbare factoren die relevant zijn voor het onderzoek. Ze kunnen zowel kwantitatief (getalsmatig) als kwalitatief (beschrijvend) zijn, afhankelijk van het type onderzoek.
 
-Voorbeeld: - In een voedingsonderzoek kunnen onderzoekskenmerken zijn: energie, eiwit- of vetinname, of de consumptie van specifieke voedingsmiddelen zoals fruit of groenten.
+Voorbeeld:
+
+\- In een voedingsonderzoek kunnen onderzoekskenmerken zijn: energie, eiwit- of vetinname, of de consumptie van specifieke voedingsmiddelen zoals fruit of groenten.
 
 ### Verschil tussen deelpopulaties en onderzoekskenmerken
 
@@ -371,7 +393,9 @@ Het is belangrijk om te begrijpen dat **deelpopulaties** en **onderzoekskenmerke
 
 Onderzoekskenmerken daarentegen zijn kenmerken die binnen elke deelpopulatie kunnen verschillen. Ze worden gemeten om te begrijpen hoe bepaalde eigenschappen (zoals voedingsinname) binnen en tussen deelpopulaties variëren. Omdat deze waarden variëren over de onderzoekseenheden worden ze ook **variabelen** genoemd.
 
-Voorbeeld: - Een deelpopulatie kan bestaan uit vrouwen tussen de 18 en 65 jaar met een BMI van 25-30, maar de onderzoekskenmerken die worden gemeten (zoals energie-inname of de inname van groenten) kunnen binnen deze groep sterk variëren.
+Voorbeeld:
+
+\- Een deelpopulatie kan bestaan uit vrouwen tussen de 18 en 65 jaar met een BMI van 25-30, maar de onderzoekskenmerken die worden gemeten (zoals energie-inname of de inname van groenten) kunnen binnen deze groep sterk variëren.
 
 ### Verschillende soorten onderzoekskenmerken
 
@@ -386,3 +410,42 @@ Daarnaast worden kenmerken vaak opgedeeld in **afhankelijke** en **onafhankelijk
 -   **Afhankelijke kenmerken**: Dit zijn kenmerken die gemeten worden als uitkomst van het onderzoek, zoals verandering in lichaamsgewicht of verbetering in gezondheid na een interventie.
 
 Onderzoekskenmerken zijn dus de meetbare eigenschappen van de onderzoekseenheden die de basis vormen voor gegevensverzameling. Ze verschillen van de kenmerken die gebruikt worden om deelpopulaties te definiëren, aangezien onderzoekskenmerken variabel zijn binnen elke deelpopulatie. Door zorgvuldig te bepalen welke kenmerken je gaat meten, kun je nauwkeurige en relevante gegevens verzamelen om de onderzoeksvraag te beantwoorden.
+
+Zeker, hieronder volgt een aangepaste versie van je tekst. Deze versie legt de nadruk op concrete toepassingen en duidelijkheid, afgestemd op studenten in de gezondheidszorg die wellicht minder ervaring hebben met juridische en ethische kaders rondom onderzoek en dataverwerking.
+
+
+## Ethische en juridische overwegingen in onderzoek
+
+Ethische overwegingen spelen een cruciale rol in wetenschappelijk onderzoek, vooral wanneer het gaat om de verwerking van persoonsgegevens. In België en Europa gelden de GDPR (Algemene Verordening Gegevensbescherming) en aanvullende nationale privacywetten, die onderzoekers verplichten zorgvuldig om te gaan met persoonlijke data. In dit deel bespreken we de belangrijkste aspecten waar je als zorgprofessional rekening mee moet houden bij het opzetten en uitvoeren van onderzoek.
+
+### Geïnformeerde toestemming
+
+Bij onderzoek waarbij persoonsgegevens worden verzameld, is **geïnformeerde toestemming** essentieel. Dit betekent dat deelnemers vooraf goed geïnformeerd moeten worden over het doel van het onderzoek, de gebruikte methoden, mogelijke risico's, en wat er met hun data gebeurt. De informatie moet helder en begrijpelijk zijn, zonder vakjargon, zodat deelnemers precies weten waar ze mee instemmen. 
+
+De toestemming van deelnemers moet **actief en expliciet** worden gegeven. Dit houdt in dat ze zelf akkoord moeten gaan, bijvoorbeeld door een handtekening te zetten of een formulier digitaal in te vullen, en dat stilzwijgende toestemming (zoals niet reageren) niet voldoende is. Ook moeten deelnemers weten dat ze hun toestemming op elk moment kunnen intrekken zonder nadelige gevolgen. Dit principe biedt deelnemers autonomie en controle over hun gegevens.
+
+Bij kwetsbare groepen, zoals minderjarigen, is extra bescherming nodig. In zulke gevallen is vaak toestemming van een ouder of voogd vereist, en moet er zorgvuldig worden overwogen of deelname verantwoord is.
+
+### GDPR en aanvullende Belgische wetgeving
+
+De GDPR biedt algemene regels voor alle EU-landen om de rechten van betrokkenen te beschermen bij de verwerking van persoonsgegevens. Deze wet stelt eisen, zoals het duidelijk formuleren van doelen, het minimaliseren van verzamelde gegevens, en het transparant verwerken en beveiligen van data. In België geldt daarnaast de **Wet van 30 juli 2018**, die extra verplichtingen oplegt aan onderzoekers en instellingen. Zo zijn er bijvoorbeeld aanvullende eisen voor het **veilig opslaan en verwerken** van persoonsgegevens en voor het respecteren van de rechten van deelnemers, zoals het recht op inzage, correctie of verwijdering van hun gegevens.
+
+In organisaties zoals onderzoeksinstellingen en universiteiten is de aanstelling van een **Functionaris voor Gegevensbescherming (DPO)** verplicht. Deze persoon houdt toezicht op de naleving van privacyregels, wat betekent dat onderzoekers vaak moeten samenwerken met deze functionaris om te voldoen aan de GDPR-vereisten.
+
+### Anonimiseren en pseudonimiseren
+
+Bij het verwerken van persoonsgegevens kun je gebruikmaken van technieken zoals **anonimiseren** en **pseudonimiseren** om de privacy van deelnemers beter te beschermen.
+
+- **Anonimiseren**: Hierbij wordt alle identificerende informatie permanent verwijderd, zodat de data niet meer terug te leiden zijn tot een individu. Eenmaal volledig geanonimiseerd, vallen de gegevens niet meer onder de GDPR, omdat ze niet langer als persoonsgegevens worden beschouwd. Het is echter belangrijk om kritisch te blijven: de data moeten zodanig bewerkt zijn dat niemand, met geen enkele redelijk haalbare methode, alsnog de identiteit van een persoon kan achterhalen.
+
+- **Pseudonimiseren**: Hierbij worden identificerende gegevens vervangen door een code. De identiteit van een deelnemer kan alleen worden achterhaald met toegang tot aanvullende informatie, die veilig en apart bewaard moet worden. Deze methode biedt meer bescherming dan standaard dataverwerking, maar valt nog steeds onder de GDPR omdat de gegevens in theorie herleidbaar blijven.
+
+### Transparantie en beveiliging
+
+**Transparantie** en **beveiliging** zijn kernwaarden binnen de GDPR. Dit betekent dat onderzoekers verplicht zijn om deelnemers helder te informeren over welke gegevens ze verzamelen, waarom, en voor hoe lang de data worden bewaard. Ook moet duidelijk zijn met wie de gegevens eventueel worden gedeeld, zoals andere onderzoekers of partners binnen het project. Dit biedt deelnemers zekerheid over wat er met hun persoonsgegevens gebeurt.
+
+De beveiliging van data houdt in dat deze goed beschermd moet worden, zowel tijdens de opslag als bij het gebruik ervan. Dit kan betekenen dat data **versleuteld** wordt en dat alleen bevoegde personen toegang hebben. Ook moeten onderzoekers regelmatig beveiligingsupdates doorvoeren. Wanneer een onderzoek verwerkingen met een hoog risico inhoudt, zoals gegevens over gezondheid, is een **gegevensbeschermingseffectbeoordeling (GEB)** verplicht. In een GEB worden mogelijke privacyrisico’s voor de betrokkenen beoordeeld en worden maatregelen getroffen om deze risico’s te beperken.
+
+### Conclusie
+
+Het is van essentieel belang dat zorgprofessionals zich bewust zijn van de ethische en juridische kaders rondom onderzoek en dataverwerking. Door zorgvuldig om te gaan met persoonsgegevens, geïnformeerde toestemming te verkrijgen, en transparant te zijn over de verwerking van data, kunnen onderzoekers bijdragen aan een veilige en ethisch verantwoorde onderzoekspraktijk. Het naleven van de GDPR en nationale wetgeving, samen met het respecteren van de rechten en privacy van deelnemers, vormt de basis voor kwalitatief hoogstaand en verantwoord onderzoek in de gezondheidszorg.
