@@ -1,5 +1,5 @@
 ---
-title: "Epidemiologie"
+title: "Epidemiologie en ziektematen"
 ---
 
 Bij epidemiologisch onderzoek naar ziektepatronen in een populatie is het essentieel om nauwkeurig vast te stellen hoe vaak ziektes voorkomen en hoe sterk deze samenhangen met bepaalde risicofactoren. Deze metingen worden uitgedrukt in **ziektefrequentiematen** en **associatiematen**, die helpen bij het kwantificeren van het voorkomen van ziekte en het risico dat individuen lopen op basis van blootstelling aan bepaalde factoren. In dit hoofdstuk worden de belangrijkste ziektematen besproken, zoals **prevalentie**, **incidentie**, **cumulatieve incidentie**, en **incidentiedichtheid**, evenals associatiematen zoals het **attributieve risico**, **relatief risico** en de **odds ratio**.
@@ -107,7 +107,7 @@ Vervolgens wordt een kruistabel opgesteld waarin de blootstelling en de uitkomst
 De kruistabel helpt om een overzicht te krijgen van hoe de ziekte en blootstelling binnen de groep zijn verdeeld.
 
 | Exposure (blootstelling) | Outcome (ziekte) aanwezig (+) | Outcome (ziekte) afwezig (-) | Totaal  |
-|-----------------|--------------------|--------------------|---------------|
+|-----------------|-------------------|-------------------|-----------------|
 | Aanwezig (+)             | a                             | b                            | a+b     |
 | Afwezig (-)              | c                             | d                            | c+d     |
 | Totaal                   | a+c                           | b+d                          | a+b+c+d |
@@ -170,7 +170,7 @@ De **odds ratio** (OR) vergelijkt de odds van blootstelling aan een risicofactor
 -   **Voorbeeld**: In een studie naar de associatie tussen roken en longkanker werden de volgende resultaten gevonden:
 
 |                       | Longkanker (case) | Geen longkanker (control) | Totaal |
-|-------------------|----------------|----------------------|----------------|
+|------------------|-----------------|---------------------|-----------------|
 | Roken (blootstelling) | 60                | 40                        | 100    |
 | Niet roken            | 20                | 80                        | 100    |
 | **Totaal**            | 80                | 120                       | 200    |
