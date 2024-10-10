@@ -286,7 +286,7 @@ Zelfs in goed ontworpen experimenten kunnen er verstorende factoren optreden die
 
 -   **Placebo-effect**: Dit gebeurt wanneer deelnemers een verbetering rapporteren puur omdat ze denken dat ze een effectieve behandeling krijgen, terwijl ze eigenlijk in de controlegroep zitten.
 
--   **Nocebo-effect**: Dit treedt op wanneer deelnemers negatieve bijwerkingen of verslechtering ervaart omdat ze verwachten dat een behandeling nadelige effecten zal hebben, zelfs als de interventie geen actief werkzame stof bevat. Dit effect kan leiden tot klachten zoals hoofdpijn, misselijkheid of angst, puur door de verwachting van schadelijke effecten. In experimenteel onderzoek kan het nocebo-effect de resultaten verstoren, aangezien de uitkomst niet te wijten is aan de behandeling zelf, maar aan de negatieve verwachtingen van de deelnemer.
+-   **Nocebo-effect**: Dit treedt op wanneer deelnemers negatieve bijwerkingen of verslechtering ervaren omdat ze verwachten dat een behandeling nadelige effecten zal hebben, zelfs als de interventie geen actief werkzame stof bevat. Dit effect kan leiden tot klachten zoals hoofdpijn, misselijkheid of angst, puur door de verwachting van schadelijke effecten. In experimenteel onderzoek kan het nocebo-effect de resultaten verstoren, aangezien de uitkomst niet te wijten is aan de behandeling zelf, maar aan de negatieve verwachtingen van de deelnemer.
 
 -   **Novelty-effect**: Dit kan optreden wanneer een nieuwe interventie in het begin positieve resultaten lijkt te hebben, niet vanwege de interventie zelf, maar omdat het nieuw en anders is.
 
