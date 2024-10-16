@@ -34,13 +34,11 @@ Voor meer informatie over deze licentie kunt u terecht op de [**Creative Commons
 
 ##### Citaatsuggestie {.unnumbered .exclude}
 
-> De Keyzer, W. (2024). Onderzoeksmethoden -- Voeding. \[Onuitgegeven cursus\]. Professionele bacheloropleiding in de voedings- en dieetkunde, HOGENT.
-
+> De Keyzer, W. (2024). *Onderzoeksmethoden: Voeding*. Zenodo. <https://doi.org/10.5281/zenodo.13938819>
 
 <!-- Endnote^®^/Zotero^®^ citaatbestand\ -->
+
 <!-- <a href="my_reference.ris" download>Referentie</a> (download) -->
-
-
 
 ```{r echo=FALSE, include=FALSE}
 # deze code chunck laten staan! anders werkt de vorige in line code niet
