@@ -18,6 +18,7 @@ book:
     - hfdstk5.qmd
     - references.qmd
   cover-image: cover.png
+    clean: false #prevent cleaning of the output directory
 
 
 
