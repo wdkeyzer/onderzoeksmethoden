@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.545">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Onderzoeksmethoden - Voeding - 3&nbsp; Van populatie naar steekproef</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./hfdstk4.html" rel="next">
+<link href="./hfdstk2.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Geen resultaten",
+    "search-matching-documents-text": "Gevonden documenten",
+    "search-copy-link-title": "Kopieer link om te zoeken",
+    "search-hide-matches-text": "Extra overeenkomsten verbergen",
+    "search-more-match-text": "meer overeenkomst in dit document",
+    "search-more-matches-text": "meer overeenkomsten in dit document",
+    "search-clear-button-title": "Wissen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuleren",
+    "search-submit-button-title": "Verzenden",
+    "search-label": "Zoeken"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hfdstk3.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Van populatie naar steekproef</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Onderzoeksmethoden - Voeding</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Schakel donkere modus"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Zoeken"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Voorwoord</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./licentie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Licentie</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hfdstk1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Inleiding tot het onderzoeksproces</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hfdstk2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Onderzoeksvraag en onderzoeksontwerp</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hfdstk3.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Van populatie naar steekproef</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hfdstk4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Verzamelen van bruikbare gegevens</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hfdstk5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Epidemiologie en ziektematen</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliografie</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhoudsopgave</h2>
+   
+  <ul>
+  <li><a href="#onderzoekseenheden-en-onderzoekskenmerken" id="toc-onderzoekseenheden-en-onderzoekskenmerken" class="nav-link active" data-scroll-target="#onderzoekseenheden-en-onderzoekskenmerken"><span class="header-section-number">3.1</span> Onderzoekseenheden en onderzoekskenmerken</a></li>
+  <li><a href="#populatie-en-steekproef" id="toc-populatie-en-steekproef" class="nav-link" data-scroll-target="#populatie-en-steekproef"><span class="header-section-number">3.2</span> Populatie en steekproef</a>
+  <ul>
+  <li><a href="#theoretische-populatie" id="toc-theoretische-populatie" class="nav-link" data-scroll-target="#theoretische-populatie"><span class="header-section-number">3.2.1</span> Theoretische populatie</a></li>
+  <li><a href="#beoogde-populatie" id="toc-beoogde-populatie" class="nav-link" data-scroll-target="#beoogde-populatie"><span class="header-section-number">3.2.2</span> Beoogde populatie</a></li>
+  <li><a href="#operationele-steekproef" id="toc-operationele-steekproef" class="nav-link" data-scroll-target="#operationele-steekproef"><span class="header-section-number">3.2.3</span> Operationele steekproef</a></li>
+  <li><a href="#steekproef" id="toc-steekproef" class="nav-link" data-scroll-target="#steekproef"><span class="header-section-number">3.2.4</span> Steekproef</a></li>
+  </ul></li>
+  <li><a href="#steekproeftrekking" id="toc-steekproeftrekking" class="nav-link" data-scroll-target="#steekproeftrekking"><span class="header-section-number">3.3</span> Steekproeftrekking</a>
+  <ul>
+  <li><a href="#soorten-steekproeven" id="toc-soorten-steekproeven" class="nav-link" data-scroll-target="#soorten-steekproeven"><span class="header-section-number">3.3.1</span> Soorten steekproeven</a>
+  <ul class="collapse">
+  <li><a href="#willekeurige-steekproeven" id="toc-willekeurige-steekproeven" class="nav-link" data-scroll-target="#willekeurige-steekproeven"><span class="header-section-number">3.3.1.1</span> Willekeurige steekproeven</a></li>
+  <li><a href="#niet-willekeurige-steekproeven" id="toc-niet-willekeurige-steekproeven" class="nav-link" data-scroll-target="#niet-willekeurige-steekproeven"><span class="header-section-number">3.3.1.2</span> Niet-willekeurige steekproeven</a></li>
+  </ul></li>
+  <li><a href="#steekproefgrootte" id="toc-steekproefgrootte" class="nav-link" data-scroll-target="#steekproefgrootte"><span class="header-section-number">3.3.2</span> Steekproefgrootte</a></li>
+  <li><a href="#steekproefbias" id="toc-steekproefbias" class="nav-link" data-scroll-target="#steekproefbias"><span class="header-section-number">3.3.3</span> Steekproefbias</a>
+  <ul class="collapse">
+  <li><a href="#selectiebias" id="toc-selectiebias" class="nav-link" data-scroll-target="#selectiebias"><span class="header-section-number">3.3.3.1</span> Selectiebias</a></li>
+  <li><a href="#non-response-bias" id="toc-non-response-bias" class="nav-link" data-scroll-target="#non-response-bias"><span class="header-section-number">3.3.3.2</span> Non-response bias</a></li>
+  </ul></li>
+  <li><a href="#nauwkeurigheid-en-betrouwbaarheid-van-de-steekproef" id="toc-nauwkeurigheid-en-betrouwbaarheid-van-de-steekproef" class="nav-link" data-scroll-target="#nauwkeurigheid-en-betrouwbaarheid-van-de-steekproef"><span class="header-section-number">3.3.4</span> Nauwkeurigheid en betrouwbaarheid van de steekproef</a>
+  <ul class="collapse">
+  <li><a href="#casus-onderzoek-naar-de-gemiddelde-zoutinname-onder-volwassenen" id="toc-casus-onderzoek-naar-de-gemiddelde-zoutinname-onder-volwassenen" class="nav-link" data-scroll-target="#casus-onderzoek-naar-de-gemiddelde-zoutinname-onder-volwassenen">Casus: Onderzoek naar de gemiddelde zoutinname onder volwassenen</a></li>
+  <li><a href="#betrouwbaarheidsinterval" id="toc-betrouwbaarheidsinterval" class="nav-link" data-scroll-target="#betrouwbaarheidsinterval">Betrouwbaarheidsinterval</a></li>
+  <li><a href="#betrouwbaarheidsniveau" id="toc-betrouwbaarheidsniveau" class="nav-link" data-scroll-target="#betrouwbaarheidsniveau">Betrouwbaarheidsniveau</a></li>
+  <li><a href="#interne-validiteit" id="toc-interne-validiteit" class="nav-link" data-scroll-target="#interne-validiteit">Interne validiteit</a></li>
+  </ul></li>
+  <li><a href="#representativiteit-en-externe-validiteit" id="toc-representativiteit-en-externe-validiteit" class="nav-link" data-scroll-target="#representativiteit-en-externe-validiteit"><span class="header-section-number">3.3.5</span> Representativiteit en externe validiteit</a></li>
+  <li><a href="#wegen-van-eenheden-in-steekproeven" id="toc-wegen-van-eenheden-in-steekproeven" class="nav-link" data-scroll-target="#wegen-van-eenheden-in-steekproeven"><span class="header-section-number">3.3.6</span> Wegen van eenheden in steekproeven</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Van populatie naar steekproef</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>In dit hoofdstuk behandelen we de basisprincipes van steekproeftrekking en de relatie tussen populaties en steekproeven in wetenschappelijk onderzoek. We beginnen met het definiëren van <strong>onderzoekseenheden</strong> en de meetbare <strong>kenmerken</strong> die in een onderzoek worden geanalyseerd. Vervolgens wordt het onderscheid tussen <strong>theoretische</strong>, <strong>beoogde</strong> en <strong>operationele populaties</strong> besproken, evenals het proces van het trekken van een steekproef en de verschillende <strong>methoden</strong> die daarbij kunnen worden gebruikt. Ook komen belangrijke concepten zoals <strong>steekproefgrootte</strong>, <strong>nauwkeurigheid</strong>, <strong>betrouwbaarheid</strong> en <strong>validiteit</strong> aan bod. Tot slot worden veelvoorkomende vormen van <strong>steekproefbias</strong> behandeld, zoals <strong>selectiebias</strong> en <strong>non-response bias</strong>, en worden strategieën besproken om deze bias te verminderen en de <strong>representativiteit</strong> en <strong>validiteit</strong> van de steekproef te waarborgen.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Leerdoelen">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Leerdoelen
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p><strong>Begrijpen van onderzoekseenheden en onderzoekskenmerken</strong>: De student kan uitleggen wat onderzoekseenheden zijn en verschillende meetbare onderzoekskenmerken identificeren die relevant zijn voor het analyseren van data.</p></li>
+<li><p><strong>Onderschied maken tussen populaties en steekproeven</strong>: De student kan het verschil uitleggen tussen een theoretische populatie, beoogde populatie, operationele steekproef en daadwerkelijke steekproef, en hoe deze concepten met elkaar in verband staan.</p></li>
+<li><p><strong>Toepassen van verschillende steekproeftrekkingsmethoden</strong>: De student kan de kenmerken van verschillende steekproeftrekkingsmethoden (zoals willekeurige en niet-willekeurige steekproeven) beschrijven en aangeven wanneer elke methode het meest geschikt is voor een specifiek onderzoek.</p></li>
+<li><p><strong>Begrijpen van de steekproefgrootte</strong>: De student kan de factoren die de steekproefgrootte beïnvloeden begrijpen, zoals betrouwbaarheidsniveau, foutenmarge en geschatte proportie binnen een populatie, en kan verklaren hoe deze factoren de grootte van de steekproef bepalen, ook wanneer de populatiegrootte onbekend is.</p></li>
+<li><p><strong>Herkennen en oplossen van steekproefbias</strong>: De student kan vormen van steekproefbias, zoals selectiebias en non-response bias, herkennen en strategieën toepassen om deze te verhelpen of te minimaliseren.</p></li>
+<li><p><strong>Nauwkeurigheid en betrouwbaarheid van de steekproef evalueren</strong>: De student kan het belang van een betrouwbaarheidsinterval en betrouwbaarheidsniveau uitleggen en de impact hiervan op de nauwkeurigheid en betrouwbaarheid van een steekproef beschrijven, met betrekking tot de interne validiteit van het onderzoek.</p></li>
+<li><p><strong>Begrijpen hoe representativiteit en validiteit van steekproeven worden verhoogd</strong>: De student begrijpt hoe representativiteit de externe validiteit van een onderzoek beïnvloedt en kan technieken zoals het wegen van eenheden uitleggen om de representativiteit te verbeteren.</p></li>
+</ol>
+</div>
+</div>
+</div>
+<section id="onderzoekseenheden-en-onderzoekskenmerken" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="onderzoekseenheden-en-onderzoekskenmerken"><span class="header-section-number">3.1</span> Onderzoekseenheden en onderzoekskenmerken</h2>
+<p><strong>Onderzoekseenheden</strong> zijn de personen, objecten of processen waarover je in je onderzoek gegevens verzamelt. Ze vormen de basis van je onderzoek en kunnen bijvoorbeeld individuen, huishoudens, bedrijven of voedingsproducten zijn.</p>
+<p><strong>Onderzoekskenmerken</strong> (of variabelen) zijn de meetbare eigenschappen van deze eenheden, zoals leeftijd, geslacht, inkomen of voedingsinname. Deze kenmerken worden geanalyseerd om patronen, relaties of verschillen binnen en tussen onderzoekseenheden te identificeren.</p>
+</section>
+<section id="populatie-en-steekproef" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="populatie-en-steekproef"><span class="header-section-number">3.2</span> Populatie en steekproef</h2>
+<p><strong>Populatie</strong> verwijst naar de volledige groep van eenheden waarover je uitspraken wilt doen in je onderzoek. Dit kan bijvoorbeeld de totale bevolking van een land, alle patiënten met een specifieke aandoening, of alle voedingsproducten in een categorie zijn. Het onderzoeken van de gehele populatie is echter vaak niet haalbaar vanwege tijd- en kostenbeperkingen.</p>
+<p>Daarom wordt vaak een <strong>steekproef</strong> getrokken, een selecte subset van de populatie. Een goed getrokken steekproef is representatief, zodat de resultaten die je uit de steekproef haalt, generaliseerbaar zijn naar de volledige populatie.</p>
+<div id="Fig-populatie" class="illustration quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="Fig-populatie-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/H3_population.png" class="illustration img-fluid figure-img" width="600">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="Fig-populatie-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figuur&nbsp;3.1: Van populatie naar steekproef.
+</figcaption>
+</figure>
+</div>
+<section id="theoretische-populatie" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="theoretische-populatie"><span class="header-section-number">3.2.1</span> Theoretische populatie</h3>
+<p>De theoretische populatie (<strong>theoretical population</strong>) is een bredere, idealere versie van de beoogde populatie. Dit is de populatie waar de onderzoeker in theorie uitspraken over wil doen, zonder praktische beperkingen zoals toegang of meetbaarheid. In sommige gevallen kan de theoretische populatie groter en minder gedefinieerd zijn dan de beoogde populatie.</p>
+<p><strong>Voorbeeld:</strong> <em>Voor een studie over het effect van een dieetinterventie zou de theoretische populatie ‘alle mensen ter wereld’ kunnen zijn, hoewel de onderzoeker zich in werkelijkheid moet beperken tot een specifieke regio of groep.</em></p>
+</section>
+<section id="beoogde-populatie" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="beoogde-populatie"><span class="header-section-number">3.2.2</span> Beoogde populatie</h3>
+<p>De beoogde populatie (<strong>target population</strong>) verwijst naar de groep mensen of objecten waar het onderzoek zich op richt en waarover de onderzoeker conclusies wil trekken. Deze populatie is meestal afgeleid van de onderzoeksvraag. Het omvat alle individuen of eenheden die relevant zijn voor het onderwerp van de studie.</p>
+<p><strong>Voorbeeld:</strong> <em>In een studie over voedingspatronen bij adolescenten kan de beoogde populatie alle adolescenten (bijvoorbeeld 12-18 jaar) in een bepaald land zijn.</em></p>
+</section>
+<section id="operationele-steekproef" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="operationele-steekproef"><span class="header-section-number">3.2.3</span> Operationele steekproef</h3>
+<p>De operationele steekproef (<strong>sampling frame</strong>) is de praktische vertaling van de beoogde populatie. Dit is de lijst of verzameling van individuen of eenheden waaruit de steekproef daadwerkelijk getrokken wordt. Het operationele kader is vaak kleiner dan de beoogde populatie vanwege beperkingen zoals beschikbaarheid van gegevens, toegang tot respondenten of logistieke beperkingen.</p>
+<p><strong>Voorbeeld:</strong> <em>Als de beoogde populatie adolescenten in een heel land omvat, kan de operationele steekproef bestaan uit een lijst van middelbare scholen in dat land, waarvan leerlingen worden geselecteerd.</em></p>
+</section>
+<section id="steekproef" class="level3" data-number="3.2.4">
+<h3 data-number="3.2.4" class="anchored" data-anchor-id="steekproef"><span class="header-section-number">3.2.4</span> Steekproef</h3>
+<p>De steekproef (<strong>sample</strong>)is de daadwerkelijke groep personen of eenheden die wordt geselecteerd uit de operationele steekproef voor deelname aan het onderzoek. Dit is de groep die daadwerkelijk wordt onderzocht en waarvan de gegevens worden verzameld. De steekproef moet representatief zijn voor de operationele steekproef, en bij uitbreiding voor de beoogde populatie, om valide conclusies te kunnen trekken.</p>
+<p><strong>Voorbeeld:</strong> <em>Uit de lijst van scholen (operationele steekproef) kan de onderzoeker een steekproef trekken van leerlingen die meedoen aan de studie.</em></p>
+</section>
+</section>
+<section id="steekproeftrekking" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="steekproeftrekking"><span class="header-section-number">3.3</span> Steekproeftrekking</h2>
+<section id="soorten-steekproeven" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="soorten-steekproeven"><span class="header-section-number">3.3.1</span> Soorten steekproeven</h3>
+<p>Er zijn verschillende methoden van steekproeftrekking, die meestal worden onderverdeeld in <strong>willekeurige</strong> (probabilistische) en <strong>niet-willekeurige</strong> (non-probabilistische) steekproeven.</p>
+<section id="willekeurige-steekproeven" class="level4" data-number="3.3.1.1">
+<h4 data-number="3.3.1.1" class="anchored" data-anchor-id="willekeurige-steekproeven"><span class="header-section-number">3.3.1.1</span> Willekeurige steekproeven</h4>
+<p>Bij willekeurige steekproeven heeft elk individu of elke eenheid in de populatie een bekende kans om geselecteerd te worden. Dit verhoogt de kans dat de steekproef representatief is voor de populatie, wat de generaliseerbaarheid van de resultaten bevordert.</p>
+<ul>
+<li><p><strong>Eenvoudige aselecte steekproef</strong>: Elke eenheid heeft dezelfde kans om te worden geselecteerd. Dit kan worden bereikt met behulp van een willekeurige getallenreeks of software.</p></li>
+<li><p><strong>Gestratificeerde steekproef</strong>: De populatie wordt verdeeld in subgroepen (strata) op basis van bepaalde kenmerken (bijvoorbeeld leeftijd of geslacht), waarna uit elk stratum een willekeurige steekproef wordt getrokken. Dit zorgt ervoor dat de steekproef representatief is voor alle belangrijke subgroepen binnen de populatie.</p></li>
+<li><p><strong>Clustersteekproef</strong>: De populatie wordt verdeeld in clusters (bijvoorbeeld op geografische basis), waarna willekeurig enkele clusters worden geselecteerd, en vervolgens worden binnen die clusters steekproeven getrokken.</p></li>
+<li><p><strong>Systematische steekproef</strong>: De eerste eenheid wordt willekeurig gekozen, waarna elke volgende eenheid op vaste intervallen wordt geselecteerd (bijvoorbeeld elke 10de persoon).</p></li>
+</ul>
+</section>
+<section id="niet-willekeurige-steekproeven" class="level4" data-number="3.3.1.2">
+<h4 data-number="3.3.1.2" class="anchored" data-anchor-id="niet-willekeurige-steekproeven"><span class="header-section-number">3.3.1.2</span> Niet-willekeurige steekproeven</h4>
+<p>Bij niet-willekeurige steekproeven is de kans om geselecteerd te worden niet gelijk of niet bekend voor elk individu in de populatie. Deze methoden worden vaak gebruikt wanneer willekeurige steekproeftrekking moeilijk of onmogelijk is.</p>
+<ul>
+<li><p><strong>Convenience sampling</strong> (gemakssteekproef): De onderzoeker selecteert eenheden die gemakkelijk beschikbaar zijn. Dit is eenvoudig, maar leidt vaak tot steekproeven die niet representatief zijn.</p></li>
+<li><p><strong>Doelgerichte steekproef</strong>: De onderzoeker selecteert eenheden op basis van specifieke kenmerken of criteria die relevant zijn voor het onderzoek. Een <strong>quotasteekproef</strong> valt niet precies onder een van de drie genoemde steekproeftrekkingen, maar heeft wel enkele overeenkomsten met de <strong>doelgerichte steekproef</strong>.</p></li>
+<li><p><strong>Quotasteekproef</strong>: Hierbij stelt de onderzoeker vooraf vast <em>hoeveel</em> deelnemers met bepaalde kenmerken in de steekproef moeten worden opgenomen. De steekproef wordt verdeeld in quota (bijvoorbeeld op basis van leeftijd, geslacht, of andere demografische kenmerken), en de onderzoeker selecteert individuen totdat elk quota is vervuld. Dit lijkt op doelgerichte steekproeftrekking omdat de selectie gebaseerd is op specifieke kenmerken, maar het verschilt doordat de onderzoeker niet per se deelnemers kiest op basis van hun geschiktheid voor het onderzoek, maar om quota te vullen.</p></li>
+<li><p><strong>Sneeuwbalsteekproef</strong>: Hierbij vraagt de onderzoeker aan deelnemers om nieuwe deelnemers aan te brengen. Dit wordt vaak gebruikt bij moeilijk te bereiken populaties.</p></li>
+</ul>
+</section>
+</section>
+<section id="steekproefgrootte" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="steekproefgrootte"><span class="header-section-number">3.3.2</span> Steekproefgrootte</h3>
+<p>Een belangrijk onderdeel van steekproeftrekking is het bepalen van de juiste steekproefgrootte. De steekproef moet groot genoeg zijn om betrouwbare resultaten te verkrijgen, maar klein genoeg om haalbaar te blijven binnen de beschikbare middelen. Factoren die hierbij een rol spelen zijn:</p>
+<ul>
+<li><p>Het gewenste betrouwbaarheidsinterval en betrouwbaarheidsniveau.</p></li>
+<li><p>De variabiliteit binnen de populatie.</p></li>
+<li><p>De verwachte effectgrootte.</p></li>
+<li><p>De beschikbare middelen en tijd.</p></li>
+</ul>
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Berekening steekproefomvang: onderzoek naar het percentage volwassenen met een tekort aan vitamine D">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Berekening steekproefomvang: onderzoek naar het percentage volwassenen met een tekort aan vitamine D
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Stel dat je een voedingsonderzoek uitvoert naar het percentage volwassenen in een stad dat een tekort aan vitamine D heeft. Uit eerdere studies blijkt dat ongeveer <strong>20%</strong> van de volwassenen een vitamine D-tekort heeft. Je wilt met een betrouwbaarheidsniveau van <strong>95%</strong> en een foutenmarge van <strong>5%</strong> een representatieve steekproefgrootte berekenen.</p>
+<section id="stap-1-gegevens" class="level4 unnumbered" data-include-in-toc="false">
+<h4 class="unnumbered anchored" data-include-in-toc="false" data-anchor-id="stap-1-gegevens">Stap 1: Gegevens</h4>
+<ul>
+<li><strong>p</strong> = 0,20 (20% van de volwassenen heeft naar verwachting een vitamine D-tekort)</li>
+<li><strong>Z</strong> = 1,96 (voor een betrouwbaarheidsniveau van 95%)</li>
+<li><strong>e</strong> = 0,05 (foutenmarge van 5%)</li>
+</ul>
+</section>
+<section id="stap-2-invullen-van-de-formule" class="level4 unnumbered exclude">
+<h4 class="unnumbered exclude anchored" data-anchor-id="stap-2-invullen-van-de-formule">Stap 2: Invullen van de formule</h4>
+<p>De formule van steekproefgrootte voor ongekende populaties is:</p>
+<p><span class="math display">\[
+n = \frac{Z^2 \cdot p \cdot (1 - p)}{e^2}
+\]</span></p>
+<p>We vullen de waarden in:</p>
+<p><span class="math display">\[
+n = \frac{(1,96)^2 \cdot 0,20 \cdot (1 - 0,20)}{(0,05)^2}
+\]</span> <span class="math display">\[
+n = \frac{(1,96)^2 \cdot 0,20 \cdot 0,80}{(0,05)^2}
+\]</span> <span class="math display">\[
+n = \frac{3,8416 \cdot 0,16}{0,0025} = \frac{0,6147}{0,0025} = 245,88
+\]</span></p>
+</section>
+<section id="stap-3-afronden" class="level4 unnumbered exclude">
+<h4 class="unnumbered exclude anchored" data-anchor-id="stap-3-afronden">Stap 3: Afronden</h4>
+<p>Je hebt dus een steekproefgrootte van <strong>246</strong> nodig om met <strong>95% zekerheid</strong> een foutenmarge van <strong>5%</strong> te hebben bij het schatten van het percentage volwassenen met een vitamine D-tekort.</p>
+</section>
+<section id="opmerking" class="level4 unnumbered exclude">
+<h4 class="unnumbered exclude anchored" data-anchor-id="opmerking">Opmerking:</h4>
+<ul>
+<li><p>Omdat de proportie <strong>p = 0,20</strong> (dus slechts 20% van de populatie wordt verwacht een tekort te hebben), is er minder variabiliteit in de populatie. Dit betekent dat een kleinere steekproefgrootte nodig is in vergelijking met een proportie van 0,5, waarbij de variabiliteit maximaal zou zijn.</p></li>
+<li><p>Als je geen voorkennis had dan zou je een proportie van <strong>p = 0,5</strong> gebruiken (maximale onzekerheid over het percentage vitamine D-tekort), waardoor zou je een steekproefgrootte van <strong>385</strong> nodig zou hebben in plaats van <strong>246</strong>.</p></li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section id="steekproefbias" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="steekproefbias"><span class="header-section-number">3.3.3</span> Steekproefbias</h3>
+<p>Steekproeftrekking kan leiden tot verschillende vormen van bias, wat de validiteit van de resultaten kan beïnvloeden. Twee voorbeelden hiervan zijn selectiebias en non-response bias.</p>
+<section id="selectiebias" class="level4" data-number="3.3.3.1">
+<h4 data-number="3.3.3.1" class="anchored" data-anchor-id="selectiebias"><span class="header-section-number">3.3.3.1</span> Selectiebias</h4>
+<p>Selectiebias ontstaat wanneer bepaalde groepen binnen de populatie systematisch worden uitgesloten of oververtegenwoordigd in de steekproef.Dit kan leiden tot vertekeningen in de onderzoeksresultaten en beperkt de generaliseerbaarheid van de conclusies.</p>
+<p>Manieren om selectiebias te verminderen:</p>
+<ul>
+<li><p><strong>Aselecte steekproeftrekking</strong>: Gebruik een willekeurige steekproefmethode waarbij elk individu in de populatie een gelijke kans heeft om geselecteerd te worden. Hierdoor worden subgroepen niet systematisch over- of ondervertegenwoordigd.</p></li>
+<li><p><strong>Stratificatie</strong>: Bij een gestratificeerde steekproef wordt de populatie opgedeeld in relevante subgroepen (bijvoorbeeld op basis van leeftijd, geslacht, inkomen). Uit elke subgroep wordt vervolgens een evenredige steekproef genomen. Dit zorgt ervoor dat alle belangrijke subgroepen adequaat worden vertegenwoordigd.</p></li>
+<li><p><strong>Gebruik van een uitgebreid sampling frame</strong>: Zorg ervoor dat de operationele steekproef (sampling frame) een nauwkeurige weergave is van de totale beoogde populatie. Probeer geen subgroepen uit te sluiten door een te smalle operationele steekproef te gebruiken (bijv. alleen mensen met internettoegang).</p></li>
+<li><p><strong>Wegen van resultaten</strong>: Als bepaalde groepen toch over- of ondervertegenwoordigd zijn, kunnen gewichten worden toegepast op de resultaten. Dit compenseert voor de onevenwichtige representatie van bepaalde subgroepen in de steekproef.</p></li>
+</ul>
+</section>
+<section id="non-response-bias" class="level4" data-number="3.3.3.2">
+<h4 data-number="3.3.3.2" class="anchored" data-anchor-id="non-response-bias"><span class="header-section-number">3.3.3.2</span> Non-response bias</h4>
+<p>Non-response bias ontstaat wanneer een substantieel deel van de benaderde steekproef niet reageert of weigert deel te nemen aan het onderzoek. Dit kan leiden tot vertekeningen omdat de non-respondenten vaak verschillen van de respondenten, bijvoorbeeld in houding, gedrag of demografische kenmerken.</p>
+<p>Manieren om non-response bias te verminderen:</p>
+<ul>
+<li><p><strong>Verhoog de respons door reminders</strong>: Stuur meerdere herinneringen of opvolgmails naar de benaderde personen om de kans op deelname te verhogen. Dit kan helpen om de non-response te verlagen.</p></li>
+<li><p><strong>Incentives bieden</strong>: Het aanbieden van een kleine beloning of compensatie voor deelname kan de respons aanzienlijk verbeteren en non-response bias beperken.</p></li>
+<li><p><strong>Gebruik van meerdere contactmethoden</strong>: Soms kan non-response het gevolg zijn van de gekozen benaderingsmethode. Door verschillende contactmethoden te gebruiken (bijv. post, telefoon, e-mail) vergroot je de kans dat een grotere verscheidenheid aan mensen deelneemt.</p></li>
+<li><p><strong>Non-respondenten analyseren</strong>: Analyseer de demografische kenmerken van degenen die niet hebben gereageerd. Als je merkt dat non-respondenten systematisch verschillen van respondenten, kun je deze gegevens gebruiken om correcties toe te passen (bijvoorbeeld door gewichten toe te passen) om de vertekening te beperken.</p></li>
+<li><p><strong>Opvolgonderzoek onder non-respondenten</strong>: Als het mogelijk is, probeer een kleine steekproef van non-respondenten te benaderen voor een vervolgonderzoek. Dit kan helpen om de mate van vertekening te begrijpen en eventueel te corrigeren.</p></li>
+</ul>
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Oefening non-respons">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Oefening non-respons
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Je hebt als doel om uiteindelijk <strong>100 respondenten</strong> in je steekproef te krijgen. Echter, je weet dat niet iedereen die je benadert, zal deelnemen. In dit geval bedraagt de <strong>non-respons 20%</strong>, wat betekent dat 20% van de mensen die je benadert, niet zal reageren of niet wil deelnemen aan het onderzoek.</p>
+<section id="vraag" class="level4 unnumbered exclude">
+<h4 class="unnumbered exclude anchored" data-anchor-id="vraag">Vraag:</h4>
+<p>Hoeveel personen moet je in totaal benaderen om uiteindelijk <strong>100 respondenten</strong> te verkrijgen, rekening houdend met een non-respons van <strong>20%</strong>?</p>
+</section>
+<section id="berekening" class="level4 unnumbered exclude">
+<h4 class="unnumbered exclude anchored" data-anchor-id="berekening">Berekening:</h4>
+<p>Als je ervan uitgaat dat <strong>80%</strong> van de benaderde personen (dus 100% - 20% non-respons) daadwerkelijk zal deelnemen, dan moet je berekenen hoeveel mensen je moet benaderen om uiteindelijk precies <strong>100</strong> respondenten te krijgen. Dit doe je door het aantal gewenste respondenten te delen door het percentage dat wél zal deelnemen (in dit geval <strong>0,80</strong>).</p>
+<p><span class="math display">\[
+\text{Benaderde personen} = \frac{\text{Gewenste respondenten}}{\text{Percentage respons}}
+\]</span></p>
+<p><span class="math display">\[
+\text{Benaderde personen} = \frac{100}{0.80} = 125
+\]</span></p>
+<p>Dit betekent dat je <strong>125 personen</strong> moet benaderen om uiteindelijk <strong>100 respondenten</strong> te krijgen, rekening houdend met de non-respons van <strong>20%</strong>.</p>
+</section>
+<section id="opmerking-1" class="level4 unnumbered exclude">
+<h4 class="unnumbered exclude anchored" data-anchor-id="opmerking-1">Opmerking:</h4>
+<ul>
+<li>Het is een veelvoorkomende fout om te denken dat je slechts <strong>20% extra</strong> personen moet benaderen, wat zou betekenen dat je <strong>120</strong> mensen zou benaderen (100 + 20). Dit klopt niet, omdat niet iedereen die extra benaderd wordt, ook zal reageren.</li>
+<li>Immers, voor elke <strong>5 extra benaderde personen</strong> is er <strong>1 persoon</strong> die niet op de uitnodiging ingaat, vanwege de non-respons van <strong>20%</strong>. Daarom moet je in totaal <strong>25% extra</strong> personen benaderen (wat neerkomt op 125 personen in totaal), en niet slechts <strong>20 extra</strong> personen.</li>
+</ul>
+<p>Conclusie: Om <strong>100 respondenten</strong> te behalen met een <strong>non-respons van 20%</strong>, moet je <strong>125</strong> personen benaderen.</p>
+</section>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="nauwkeurigheid-en-betrouwbaarheid-van-de-steekproef" class="level3" data-number="3.3.4">
+<h3 data-number="3.3.4" class="anchored" data-anchor-id="nauwkeurigheid-en-betrouwbaarheid-van-de-steekproef"><span class="header-section-number">3.3.4</span> Nauwkeurigheid en betrouwbaarheid van de steekproef</h3>
+<p>Bij het evalueren van een steekproef is het essentieel om de <strong>nauwkeurigheid</strong> en <strong>betrouwbaarheid</strong> van de resultaten te overwegen, die een rol spelen in de <em>interne validiteit</em> van het onderzoek. Het <strong>betrouwbaarheidsinterval</strong> geeft een indicatie van de statistische nauwkeurigheid van de schattingen. Hoe kleiner het interval, hoe dichter de geschatte waarde bij de werkelijke waarde van de populatie ligt, wat wijst op hogere nauwkeurigheid. Het <strong>betrouwbaarheidsniveau</strong> (bijvoorbeeld 95%) geeft aan hoe zeker we kunnen zijn dat de werkelijke waarde binnen dit interval ligt. Dit zegt iets over de betrouwbaarheid van de resultaten bij herhaalde steekproefnemingen. Deze elementen versterken de <em>interne validiteit</em>, omdat ze betrekking hebben op de precisie en consistentie van de resultaten binnen de steekproef zelf.</p>
+<p>We kunnen dit illustreren aan de hand van een concreet voorbeeld:</p>
+<section id="casus-onderzoek-naar-de-gemiddelde-zoutinname-onder-volwassenen" class="level4 unnumbered exclude">
+<h4 class="unnumbered exclude anchored" data-anchor-id="casus-onderzoek-naar-de-gemiddelde-zoutinname-onder-volwassenen">Casus: Onderzoek naar de gemiddelde zoutinname onder volwassenen</h4>
+<p>Stel dat je een onderzoek uitvoert naar de gemiddelde zoutinname van volwassenen in een bepaalde regio. Uit een steekproef van <strong>500 volwassenen</strong> blijkt dat de gemiddelde dagelijkse zoutinname <strong>8 gram</strong> is. Je wilt weten hoe nauwkeurig deze schatting is en hoe betrouwbaar je resultaten zijn.</p>
+</section>
+<section id="betrouwbaarheidsinterval" class="level4 unnumbered exclude">
+<h4 class="unnumbered exclude anchored" data-anchor-id="betrouwbaarheidsinterval">Betrouwbaarheidsinterval</h4>
+<p>Het betrouwbaarheidsinterval geeft aan in welk bereik de werkelijke zoutinname van de populatie naar verwachting ligt. Stel dat je berekent dat het <strong>95% betrouwbaarheidsinterval</strong> voor de gemiddelde zoutinname in je steekproef is <strong>7,8 tot 8,2 gram</strong> per dag.</p>
+<p>Dit betekent dat je met <strong>95% zekerheid</strong> kunt zeggen dat de werkelijke gemiddelde zoutinname van alle volwassenen in de regio tussen <strong>7,8 en 8,2 gram</strong> per dag ligt. Hoe kleiner dit interval, hoe nauwkeuriger de schatting van de zoutinname is. Een kleiner betrouwbaarheidsinterval (bijvoorbeeld van <strong>7,9 tot 8,1 gram</strong>) zou betekenen dat je schatting dichter bij de werkelijke waarde van de populatie ligt, wat de <strong>nauwkeurigheid</strong> vergroot.</p>
+</section>
+<section id="betrouwbaarheidsniveau" class="level4 unnumbered exclude">
+<h4 class="unnumbered exclude anchored" data-anchor-id="betrouwbaarheidsniveau">Betrouwbaarheidsniveau</h4>
+<p>Het betrouwbaarheidsniveau van <strong>95%</strong> geeft aan dat als je het onderzoek meerdere keren zou herhalen met verschillende steekproeven, in <strong>95 van de 100</strong> gevallen de werkelijke gemiddelde zoutinname binnen het berekende interval zou liggen (7,8-8,2 gram). Dit zegt iets over de <strong>betrouwbaarheid</strong> van je resultaten: hoe vaak je de juiste waarde zou schatten als je het onderzoek herhaaldelijk zou uitvoeren.</p>
+</section>
+<section id="interne-validiteit" class="level4 unnumbered exclude">
+<h4 class="unnumbered exclude anchored" data-anchor-id="interne-validiteit">Interne validiteit</h4>
+<p>Deze nauwkeurigheid (kleiner betrouwbaarheidsinterval) en betrouwbaarheid (hoog betrouwbaarheidsniveau) dragen bij aan de <strong>interne validiteit</strong> van het onderzoek. Dit betekent dat je met meer zekerheid kunt zeggen dat de schatting van de zoutinname in je steekproef overeenkomt met de werkelijke waarde voor de gehele populatie. Als je steekproefresultaten consistent en nauwkeurig zijn, is de interne validiteit hoog.</p>
+</section>
+</section>
+<section id="representativiteit-en-externe-validiteit" class="level3" data-number="3.3.5">
+<h3 data-number="3.3.5" class="anchored" data-anchor-id="representativiteit-en-externe-validiteit"><span class="header-section-number">3.3.5</span> Representativiteit en externe validiteit</h3>
+<p><strong>Representativiteit</strong> verwijst naar hoe goed de steekproef de kenmerken van de volledige populatie weerspiegelt. Een steekproef is representatief wanneer de verdeling van belangrijke kenmerken (zoals leeftijd, geslacht, opleidingsniveau) overeenkomt met die van de populatie. Dit is cruciaal om te kunnen generaliseren naar de bredere populatie, wat de <em>externe validiteit</em> van het onderzoek versterkt. <strong>Externe validiteit</strong> betreft de mate waarin de resultaten van de steekproef toepasbaar zijn op andere populaties, contexten of tijdsperiodes. Een representatieve steekproef vergroot de kans dat de bevindingen ook in andere situaties relevant zijn, waardoor de conclusies breder toepasbaar worden.</p>
+</section>
+<section id="wegen-van-eenheden-in-steekproeven" class="level3" data-number="3.3.6">
+<h3 data-number="3.3.6" class="anchored" data-anchor-id="wegen-van-eenheden-in-steekproeven"><span class="header-section-number">3.3.6</span> Wegen van eenheden in steekproeven</h3>
+<p>Wanneer de verdeling van kenmerken in een steekproef niet overeenkomt met de populatie, kan de steekproef <strong>gewogen</strong> worden om dit te corrigeren. Elke eenheid in de steekproef krijgt een <strong>gewicht</strong> op basis van hoe goed deze eenheid de populatie vertegenwoordigt. Eenheden uit ondervertegenwoordigde groepen krijgen een zwaarder gewicht, terwijl eenheden uit oververtegenwoordigde groepen een lichter gewicht krijgen. Dit zorgt ervoor dat de resultaten van de steekproef beter aansluiten bij de populatie, en verbetert de representativiteit en externe validiteit van het onderzoek.</p>
+<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Voorbeeld wegen van eenheden">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Voorbeeld wegen van eenheden
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Stel dat je een onderzoek uitvoert naar voedingsgewoonten, en je hebt een steekproef van 100 personen. In je steekproef bestaat 30% uit mannen en 70% uit vrouwen, maar de populatie bestaat uit 50% mannen en 50% vrouwen. Mannen zijn in je steekproef ondervertegenwoordigd. Om dit te corrigeren, geef je mannen een zwaarder gewicht (bijvoorbeeld 1,67) en vrouwen een lichter gewicht (bijvoorbeeld 0,71), zodat de resultaten beter aansluiten bij de werkelijke verdeling in de populatie.</p>
+<p>De gewichten worden berekend door de verhouding in de steekproef te vergelijken met de verhouding in de populatie. Dit doe je door het <strong>percentage van de populatie</strong> te delen door het <strong>percentage van de steekproef</strong>.</p>
+<ul>
+<li>Mannen in de populatie: 50%, in de steekproef: 30% <span class="math display">\[
+\text{Gewicht voor mannen} = \frac{50\%}{30\%} = 1,67
+\]</span></li>
+<li>Vrouwen in de populatie: 50%, in de steekproef: 70% <span class="math display">\[
+\text{Gewicht voor vrouwen} = \frac{50\%}{70\%} = 0,71
+\]</span></li>
+</ul>
+<p>Deze gewichten zorgen ervoor dat de resultaten meer in lijn zijn met de populatieverdeling.</p>
+</div>
+</div>
+</div>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-baarda2021" class="csl-entry" role="listitem">
+Baarda, B., Bakker, E., Fischer, T., Julsing, M., &amp; Vianen, R. van. (2021). <em>Basisboek methoden en technieken: kwantitatief praktijkgericht onderzoek op wetenschappelijke basis</em>. Noordhoff uitgevers.
+</div>
+<div id="ref-nutritio2015" class="csl-entry" role="listitem">
+Lovegrove, J., Sharma, S., Hodson, L., &amp; Lanham-New, S. (Red.). (2015). <em>Nutrition research methodologies</em>. John Wiley &amp; Sons Inc.
+</div>
+<div id="ref-mullie2017" class="csl-entry" role="listitem">
+Mullie, P. (2017). <em>Introductie tot epidemiologie en biostatistiek</em>. Garant.
+</div>
+<div id="ref-pollefliet2018" class="csl-entry" role="listitem">
+Pollefliet, L. (2018). <em>Schrijven: van verslag tot eindwerk - do’s &amp; don’ts</em> (Negende, herwerkte druk). Academia Press.
+</div>
+<div id="ref-soedamah-muthu2016" class="csl-entry" role="listitem">
+Soedamah-Muthu, S. S., Duijnhoven, F. van, &amp; Busstra, M. (2016). Voeding en epidemiologie: December 2016. <em>Informatorium voor Voeding en Diëtetiek: Dieetleer en Voedingsleer-Supplement 94-december 2016</em>, 13–49.
+</div>
+<div id="ref-vandenbroucke2016" class="csl-entry" role="listitem">
+Vandenbroucke, J. P., &amp; Tijssen, J. G. P. (2016). <em>Klinische Epidemiologie en biostatistiek</em> (pp. 1459–1480). Bohn Stafleu van Loghum.
+</div>
+</div>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Gekopieerd!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Gekopieerd!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./hfdstk2.html" class="pagination-link  aria-label=" &lt;span="" en="" onderzoeksontwerp&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Onderzoeksvraag en onderzoeksontwerp</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./hfdstk4.html" class="pagination-link" aria-label="<span class='chapter-number'>4</span>&nbsp; <span class='chapter-title'>Verzamelen van bruikbare gegevens</span>">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Verzamelen van bruikbare gegevens</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
